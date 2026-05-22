@@ -1,0 +1,17 @@
+<!-- <?xml version="1.0" encoding="utf-8" ?>
+<bodies>
+    <anatomies>
+        <anatomy Name="Dragon">
+        <part Type="Head">
+            <part Type="Face" />
+        </part>
+        <part Type="Back" />
+        <part Type="Foot" Laterality="Right" SupportsDependent="Feet" />
+        <part Type="Foot" Laterality="Left" SupportsDependent="Feet" />
+        <part Type="Missile Weapon" Laterality="Right" />
+        <part Type="Missile Weapon" Laterality="Left" />
+        <part Type="Feet" DependsOn="Feet" />
+        <part Type="Tail" />
+        </anatomy>
+    </anatomies>
+</bodies> -->

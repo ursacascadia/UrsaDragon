@@ -2,28 +2,30 @@
 <objects>
     <object Name="Ursa_Azhdahak" Inherits="BaseReptile">
         <part Name="Render" DisplayName="Azhdahak" RenderString="r" Tile="Creatures/Azhdahak.png" DetailColor="W" ColorString="&amp;G" />
-        <part Name="Body" Anatomy="Snake" />
-        <part Name="Brain" Hostile="False" Factions="Birds-100,Unshelled Reptiles-100,Pariahs-100" />
+        <part Name="Body" Anatomy="Bird" />
+        <part Name="Brain" Wanders="False" Hostile="False" Calm="True" Factions="Birds-100,Unshelled Reptiles-100,Pariahs-100" />
         <stat Name="AV" Value="8" />
         <stat Name="DV" Value="8" />
         <stat Name="Level" Value="25" />
         <stat Name="Hitpoints" Value="285" />
         <mutation Name="FlamingRay" Level="8" Variant="Ghostly Flames Face" BodyPartType="Face" />
         <mutation Name="Wings" Level="10" />
-        <inventoryobject Blueprint="Dawnglider_Bite" Number="1" />
-        <inventoryobject Blueprint="Dragon Talons" Number="1" />
+        <inventoryobject Blueprint="Dragon_Bite" Number="1" />
+        <inventoryobject Blueprint="Dragon_Talons" Number="1" />
         <stat Name="HeatResistance" Value="100" />
         <part Name="Description" Short="" />
         <tag Name="Species" Value="dawnglider" />
         <tag Name="Role" Value="Leader" />
+        <xtagGrammar Proper="true" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
     </object>
     
     <!-- Natural weapons -->
-    <object Name="Dawnglider_Bite" Inherits="Bite">
+    <object Name="Dragon_Bite" Inherits="Bite">
         <part Name="MeleeWeapon" BaseDamage="2d4" />
         <part Name="TemperatureOnHit" Amount="2d30" Max="true" MaxTemp="400" OnWielderHit="false" />
     </object>
-    <object Name="Dragon Talons" Inherits="NaturalWeapon">
+    <object Name="Dragon_Talons" Inherits="NaturalWeapon">
         <part Name="Render" DisplayName="dragon talons" Tile="Creatures/natural-weapon-claw.bmp" ColorString="&amp;w" />
         <part Name="MeleeWeapon" HitBonus="8" PenBonus="8" BaseDamage="3d6" Skill="ShortBlades" Stat="Strength" Slot="Foot" />
     </object>
