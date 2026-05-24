@@ -51,7 +51,7 @@ namespace Ursa.Dragon
 
             The.ZoneManager.ClearZoneBuilders(zoneid);
             The.ZoneManager.AddZoneBuilder(zoneid, 4900, "ClearAll");
-            The.ZoneManager.AddZonePostBuilder(zoneid, "MapBuilder", "FileName", "Ursa_Dragon_Lair.rpm");
+            The.ZoneManager.AddZonePostBuilder(zoneid, "MapBuilder", "FileName", "Ursa_Dragon_Lair");
             The.ZoneManager.SetZoneName(zoneid, "Azhdahak's den", null, null, null, null, Proper: true);
 
             string lair_secret = builder.AddSecret(
@@ -80,6 +80,8 @@ namespace Ursa.Dragon
             string zoneid2 = builder.ZoneIDFromXY("JoppaWorld", loc2.X, loc2.Y);
 
             The.ZoneManager.ClearZoneBuilders(zoneid2);
+            The.ZoneManager.AddZoneBuilder(zoneid2, 4900, "ClearAll");
+            The.ZoneManager.AddZonePostBuilder(zoneid2, "MapBuilder", "FileName", "Ursa_Rof_Camp");
             The.ZoneManager.SetZoneName(zoneid2, "Rofwufufuf's camp", null, null, null, null, Proper: true);
 
             string camp_secret = builder.AddSecret(
