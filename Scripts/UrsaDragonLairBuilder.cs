@@ -16,6 +16,8 @@ namespace Ursa.Dragon
             Zone WorldZone = The.ZoneManager.GetZone("JoppaWorld");
             MutabilityMap mutableMap = builder.mutableMap;
 
+            // === Generate Azhdahak's den ===
+
             // define array of valid locations
 
             int[] locations_x = {24,43,64,65,70,77};
@@ -47,6 +49,7 @@ namespace Ursa.Dragon
 
             string zoneid = builder.ZoneIDFromXY("JoppaWorld", loc.X, loc.Y);
 
+            The.ZoneManager.ClearZoneBuilders(zoneid);
             The.ZoneManager.AddZoneBuilder(zoneid, 4900, "ClearAll");
             The.ZoneManager.AddZonePostBuilder(zoneid, "MapBuilder", "FileName", "Ursa_Dragon_Lair.rpm");
             The.ZoneManager.SetZoneName(zoneid, "Azhdahak's den", null, null, null, null, Proper: true);
@@ -60,6 +63,32 @@ namespace Ursa.Dragon
             );
             
             builder.mutableMap.SetMutable(loc, 0);
+
+            // === Generate Rofwufufuf's camp ===
+
+            // Define array of valid areas (patches of the northeastern hills)
+            int[] locations_x1 = {61,62,65,66};
+            int[] locations_x2 = {62,64,67,70};
+            int[] locations_y1 = {0, 1, 2, 1}; // exclusive
+            int[] locations_y2 = {3, 3, 3, 2}; // exclusive
+
+            rndint = rnd.Next(4);
+
+            // Pick a random area from the above and put it in one of them
+            Location2D loc2 = mutableMap.popMutableLocationInArea(locations_x1[rndint]*3,locations_y1[rndint]*3,(locations_x2[rndint]*3)-1,(locations_y2[rndint]*3)-1);
+
+            string zoneid2 = builder.ZoneIDFromXY("JoppaWorld", loc2.X, loc2.Y);
+
+            The.ZoneManager.ClearZoneBuilders(zoneid2);
+            The.ZoneManager.SetZoneName(zoneid2, "Rofwufufuf's camp", null, null, null, null, Proper: true);
+
+            string camp_secret = builder.AddSecret(
+                zoneid2,
+                "Rofwufufuf's camp",
+                new string[2] { "encounter", "snapjaw" },
+                "Oddities",
+                "$Ursa_Rof_Camp"
+            );
         }
 
     }
