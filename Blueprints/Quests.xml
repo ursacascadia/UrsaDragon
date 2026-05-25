@@ -2,7 +2,7 @@
 <quests>
     <quest
         Name="Crossed Threads" Level="18"
-        Faction="Kyakukya" Reputation="100"
+        Factions="Kyakukya" Reputation="100"
         Accomplishment="You ascertained the fate of a dragon-hunting snapjaw and returned to tell Crowsong what happened."
         Hagiograph="At Crowsong's request, =name= politely ascertained the fate of the dragon-hunter Rofwufufuf."
         HagiographCategory="DoesSomethingRad">
@@ -18,8 +18,8 @@
     </quest>
     <quest
         Name="Sparks on the Kindling" Level="18"
-        Faction="Pariahs,Unshelled Reptiles" Reputation="100"
-        Accomplishment="You reunited the Rofwufufuf and Azhdahak, the exiles of the mountains."
+        Factions="Pariahs,Unshelled Reptiles" Reputation="100"
+        Accomplishment="You reunited Rofwufufuf and Azhdahak, the exiles of the mountains."
         Hagiograph="In an act of brazen compassion, =name= brought Rofwufufuf to Azhdahak, bringing warmth to their once-solitary lives."
         HagiographCategory="DoesSomethingRad">
         <step Name="Reunite Rofwufufuf and Azhdahak" XP="2000">
