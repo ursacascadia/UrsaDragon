@@ -5,6 +5,8 @@
     <conversation ID="Crowsong" Load="Merge">
         <start ID="Welcome" Load="Merge">
             <choice Before="EndChoice" Target="Work" IfNotHaveQuest="Crossed Threads">Do you have any work that needs done?</choice>
+            <choice Before="EndChoice" Target="NoProgress" IfHaveQuest="Crossed Threads" IfNotFinishedQuestStep="Crossed Threads~Find Rofwufufuf">I haven't found them yet.</choice>
+            <choice Before="EndChoice" Target="FinishQuest" IfFinishedQuestStep="Crossed Threads~Find Rofwufufuf">I found Rofwufufuf, and he's okay.</choice>
         </start>
         <node ID="Work">
             <text>
@@ -24,9 +26,8 @@
             </text>
             <choice Target="Dragon">What is a dragon?</choice>
             <choice Target="Back">Do you want me to bring them back?</choice>
-            <choice Target="Where" RevealMapNote="$Ursa_Dragon_Lair">
+            <choice Target="Where">
                 <text>Where did they go?</text>
-                <part Name="QuestHandler" QuestID="Crossed Threads" Action="Start" />
             </choice>
             <choice Target="WorkNo">I'm not interested.</choice>
         </node>
@@ -40,19 +41,27 @@
                 No, too loud. Too much trouble. Just curious to know what became of the little one.
             </text>
         </node>
-        <node ID="Where" Inherits="Welcome">
-            Where the rocks clash and carve out dens fit for beasts like dragons.
+        <node ID="Where">
+            <text>Where the rocks clash and carve out dens fit for beasts like dragons.</text>
+            <choice Target="End" StartQuest="Crossed Threads" RevealMapNote="$Ursa_Dragon_Lair">I'll find them for you.</choice>
+        </node>
+        <node ID="NoProgress" Inherits="Welcome">
+            <text>There is no shame in moving slowly, or not moving at all.</text>
+        </node>
+        <node ID="FinishQuest">
+            <text>Good news. I felt the little one had more to do before it feeds the dirt. Thank you, drifter.</text>
+            <choice Target="End" CompleteQuestStep="Crossed Threads~Return to Crowsong" FinishQuest="Crossed Threads">You're welcome, Crowsong. Live and drink.</choice>
         </node>
     </conversation>
 
     <!-- Azhdahak -->
 
-    <conversation ID="Ursa_Azhdahak">
+    <conversation ID="UrsaAzhdahak">
         <start ID="Beginning">
             <text>Ah, another drifter. Are you lossst?</text>
             <choice Target="What">What are you?</choice>
             <choice Target="Place">Why do you live in such a remote place?</choice>
-            <choice Target="Snapjaw">I'm told a snapjaw was coming here. Did he make it?</choice>
+            <choice Target="Snapjaw" IfHaveQuest="Crossed Threads">I'm told a snapjaw was coming here. Did he make it?</choice>
             <choice Target="End">Live and drink.</choice>
         </start>
         <node ID="What" Inherits="Beginning">
@@ -63,31 +72,49 @@
             <text>I was alwaysss this byg, and always an a'id reader. The rest happened over a long lyfe. I outgrew my eld form.</text>
         </node>
         <node ID="Place" Inherits="Beginning">
-            <text>The only other place ee'm welcome is with the dawngliders of the salt dunesss, and they're a hostele flock. It's quiet ere, I have a wide berth. Ere, I acquaint the occasional pylgrim, guide the waywerd. I am happy ere.</text>
+            <text>The only other place ee'm welcome is with the dawngliders of the salt dunesss, and they're a hostele flock. It's quiet ere, I have a wide berth. Ere, I acquaint the occasional pilgrym, guide the waywerd. I am happy ere.</text>
         </node>
-        <node ID="Snapjaw">
+        <node ID="Snapjaw" CompleteQuestStep="Crossed Threads~Travel to Azhdahak's den">
             <text>Ay, the little snappy one? It did, for want to slay me. It didn't. Ee had to give him some nasty cuts, but it's okay now. I suppose 'at will be a lesson to it.</text>
             <choice Target="Spared">You spared it?</choice>
             <choice Target="Where">Where did it go?</choice>
+            <choice Target="Thanks">Thank you.</choice>
         </node>
         <node ID="Spared" Inherits="Snapjaw">
             <text>Twas foolish, not dangerous. Ay, gave it a bit of my own. It fashioned itself a fyne weapon. Twas the leassst I could do.</text>
         </node>
-        <node ID="Where" Inherits="Snapjaw">
+        <node ID="Where" RevealMapNote="$Ursa_Rof_Camp" Inherits="Snapjaw">
             <text>It said it had no trybe, so it was off to camp in the hills. I saw a smokestack when I was flayin.</text>
+        </node>
+        <node ID="Thanks" Inherits="Beginning">
+            <text>Of courssse, pilgrym.</text>
         </node>
     </conversation>
 
     <!-- Rofwufufuf -->
 
-    <conversation ID="Ursa_Rofwufufuf">
+    <conversation ID="UrsaRofwufufuf">
         <start ID="Beginning">
-            <text>wat you want? rofuf want no fite right now.</text>
+            <text>
+                wat you want? rofuf want no fite right now.~
+                go. {{emote|*scritch, scritch*}} ruf want no fite.~
+                {{emote|*scritch scritch. It's ignoring you.*}} 
+            </text>
             <choice Target="Weapon">That's an interesting looking weapon.</choice>
             <choice IfHaveQuest="Crossed Threads" Target="Dragon">Why were you after Azhdahak?</choice>
-            <choice Target="Howl">*howl*</choice>
-            <choice Target="End"></choice>
+            <choice Target="Howl">{{emote|*howl*}}</choice>
+            <choice Target="End" IfHaveQuest="Crossed Threads" CompleteQuestStep="Crossed Threads~Find Rofwufufuf">Live and drink, fiery one.</choice>
+            <choice Target="End" IfNotHaveQuest="Crossed Threads">Live and drink, fiery one.</choice>
         </start>
+        <node ID="Weapon" Inherits="Beginning">
+            <text>tanks, ehehe. rof got it from big d... daggon. make it big stabby-stabby.</text>
+        </node>
+        <node ID="Dragon" Inherits="Beginning">
+            <text>wufufuf not have lot a pack friends. woofuf want be legend, make new pack.</text>
+        </node>
+        <node ID="Howl" Inherits="Beginning">
+            <text>{{emote|*Rofwufufuf tilts =pronouns.possessive= head back with you and screams a howl at the heavens.*}}</text>
+        </node>
     </conversation>
 
 </conversations>
