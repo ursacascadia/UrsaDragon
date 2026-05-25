@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<conversations>
+
+    <!-- Crowsong patch -->
+    <conversation ID="Crowsong" Load="Merge">
+        <start ID="Welcome" Load="Merge">
+            <choice Before="EndChoice" Target="Work" IfNotHaveQuest="Crossed Threads">Do you have any work that needs done?</choice>
+        </start>
+        <node ID="Work">
+            <text>
+                I don't know work. But I am curious about where a certain thread leads.
+            </text>
+            <choice Target="Questions">Go on?</choice>
+            <choice Target="WorkNo">I'm not interested.</choice>
+        </node>
+        <node ID="WorkNo" Inherits="Welcome">
+            <text>
+                You needn't be.
+            </text>
+        </node>
+        <node ID="Questions">
+            <text>
+                A particularly fiery thread stitched its way through Kyakukya, a pariah to howling beasts. Off to snap at a dragon. I want to know if its thread has been severed.
+            </text>
+            <choice Target="Dragon">What is a dragon?</choice>
+            <choice Target="Back">Do you want me to bring them back?</choice>
+            <choice Target="Where" RevealMapNote="$Ursa_Dragon_Lair">
+                <text>Where did they go?</text>
+                <part Name="QuestHandler" QuestID="Crossed Threads" Action="Start" />
+            </choice>
+            <choice Target="WorkNo">I'm not interested.</choice>
+        </node>
+        <node ID="Dragon" Inherits="Questions">
+            <text>
+                A beast from long, long ago. Somehow, one weaved itself beside us. It calls itself Azhdahak.
+            </text>
+        </node>
+        <node ID="Back" Inherits="Questions">
+            <text>
+                No, too loud. Too much trouble. Just curious to know what became of the little one.
+            </text>
+        </node>
+        <node ID="Where" Inherits="Welcome">
+            Where the rocks clash and carve out dens fit for beasts like dragons.
+        </node>
+    </conversation>
+
+    <!-- Azhdahak -->
+
+    <conversation ID="Ursa_Azhdahak">
+        <start ID="Beginning">
+            <text>Ah, another drifter. Are you lossst?</text>
+            <choice Target="What">What are you?</choice>
+            <choice Target="Place">Why do you live in such a remote place?</choice>
+            <choice Target="Snapjaw">I'm told a snapjaw was coming here. Did he make it?</choice>
+            <choice Target="End">Live and drink.</choice>
+        </start>
+        <node ID="What" Inherits="Beginning">
+            <text>A dragon, a beast the eaters knew well, from a time before even 'ey lived.</text>
+            <choice Target="What2" Priority="0">Were you born like this?</choice>
+        </node>
+        <node ID="What2" Inherits="Beginning">
+            <text>I was alwaysss this byg, and always an a'id reader. The rest happened over a long lyfe. I outgrew my eld form.</text>
+        </node>
+        <node ID="Place" Inherits="Beginning">
+            <text>The only other place ee'm welcome is with the dawngliders of the salt dunesss, and they're a hostele flock. It's quiet ere, I have a wide berth. Ere, I acquaint the occasional pylgrim, guide the waywerd. I am happy ere.</text>
+        </node>
+        <node ID="Snapjaw">
+            <text>Ay, the little snappy one? It did, for want to slay me. It didn't. Ee had to give him some nasty cuts, but it's okay now. I suppose 'at will be a lesson to it.</text>
+            <choice Target="Spared">You spared it?</choice>
+            <choice Target="Where">Where did it go?</choice>
+        </node>
+        <node ID="Spared" Inherits="Snapjaw">
+            <text>Twas foolish, not dangerous. Ay, gave it a bit of my own. It fashioned itself a fyne weapon. Twas the leassst I could do.</text>
+        </node>
+        <node ID="Where" Inherits="Snapjaw">
+            <text>It said it had no trybe, so it was off to camp in the hills. I saw a smokestack when I was flayin.</text>
+        </node>
+    </conversation>
+
+    <!-- Rofwufufuf -->
+
+    <conversation ID="Ursa_Rofwufufuf">
+        <start ID="Beginning">
+            <text>wat you want? rofuf want no fite right now.</text>
+            <choice Target="Weapon">That's an interesting looking weapon.</choice>
+            <choice IfHaveQuest="Crossed Threads" Target="Dragon">Why were you after Azhdahak?</choice>
+            <choice Target="Howl">*howl*</choice>
+            <choice Target="End"></choice>
+        </start>
+    </conversation>
+
+</conversations>
