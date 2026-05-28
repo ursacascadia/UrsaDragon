@@ -2,7 +2,7 @@
 <objects>
     <object Name="Ursa_Azhdahak" Inherits="BaseReptile">
         <part Name="Render" DisplayName="Azhdahak" RenderString="r" Tile="Creatures/Azhdahak.png" DetailColor="W" ColorString="&amp;G" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="Bearing the smoldering breath and emerald sheen of his serpentine relatives, he is a legend of old reborn as new. Trunk-like talons grip the cold stone beneath their gargantuan frame, while a feathered tail slithers idly. They possess a gentle countenance, broken only by the miasmic haze shimmering across their scales." />
         <part Name="Body" Anatomy="Bird" />
         <part Name="Brain" Wanders="False" Hostile="False" Calm="True" Factions="Birds-50,Unshelled Reptiles-25,Pariahs-100" />
         <tag Name="NoHateFactions" Value="Snapjaws" />

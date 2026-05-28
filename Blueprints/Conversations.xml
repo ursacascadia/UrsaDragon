@@ -61,7 +61,8 @@
             <text>Ah, another drifter. Are you lossst?</text>
             <choice Target="What">What are you?</choice>
             <choice Target="Place">Why do you live in such a remote place?</choice>
-            <choice Target="Snapjaw" IfHaveQuest="Crossed Threads">I'm told a snapjaw was coming here. Did he make it?</choice>
+            <choice Target="Snapjaw" IfHaveActiveQuest="Crossed Threads">I'm told a snapjaw was coming here. Did he make it?</choice>
+            <choice Target="Rofwufufuf" IfFinishedQuestStep="Crossed Threads~Find Rofwufufuf" IfHaveCompanion="Ursa_Rofwufufuf" StartQuest="Sparks on the Kindling">You and Rofwufufuf should stay together.</choice>
             <choice Target="End">Live and drink.</choice>
         </start>
         <node ID="What" Inherits="Beginning">
@@ -86,6 +87,28 @@
         <node ID="Where" RevealMapNote="$Ursa_Rof_Camp" Inherits="Snapjaw">
             <text>It said it had no trybe, so it was off to camp in the hills. I saw a smokestack when I was flayin.</text>
         </node>
+        <node ID="Rofwufufuf">
+            <text>
+                Ey... does it want for that?
+
+                {{rules|You look at Rofwufufuf. His eyes fixate on Azhdahak, his forepaws submissively sprawled on the floor before Azhdahak.}}
+            </text>
+            <choice Target="Stay">Of course it does.</choice>
+            <choice Target="Not">I don't know.</choice>
+        </node>
+        <node ID="Not" Inherits="Beginning">
+            <text>It's for the bessst...</text>
+        </node>
+        <node ID="Stay">
+            <text>
+                If you really think it's for the best... I would love to have it.
+                
+                {{rules|Rofwufufuf runs on all fours to the great dragon. He immediately nips and licks Azhdahak's ankles. Azhdahak exhales a puff of ethanol from his nostrils.}}
+
+                Thanksss, =name=. You have my eternal gratitude.
+            </text>
+            <choice Target="End" DismissCompanionToSpeaker="Ursa_Rofwufufuf" CompleteQuestStep="Sparks on the Kindling~Reunite Rofwufufuf and Azhdahak" FinishQuest="Sparks on the Kindling">Live and drink, water-crossed ones.</choice>
+        </node>
         <node ID="Thanks" Inherits="Beginning">
             <text>Of courssse, pilgrym.</text>
         </node>
@@ -103,8 +126,9 @@
             <choice Target="Weapon">That's an interesting looking weapon.</choice>
             <choice IfHaveQuest="Crossed Threads" Target="Dragon">Why were you after Azhdahak?</choice>
             <choice Target="Howl">{{emote|*howl*}}</choice>
-            <choice Target="End" IfHaveQuest="Crossed Threads" CompleteQuestStep="Crossed Threads~Find Rofwufufuf">Live and drink, fiery one.</choice>
+            <choice Target="End" IfHaveQuest="Crossed Threads" IfNotFinishedQuestStep="Crossed Threads~Find Rofwufufuf" CompleteQuestStep="Crossed Threads~Find Rofwufufuf">Live and drink, fiery one.</choice>
             <choice Target="End" IfNotHaveQuest="Crossed Threads">Live and drink, fiery one.</choice>
+            <choice Target="End" IfFinishedQuestStep="Crossed Threads~Find Rofwufufuf">Live and drink, fiery one.</choice>
         </start>
         <node ID="Weapon" Inherits="Beginning">
             <text>tanks, ehehe. rof got it from big d... daggon. make it big stabby-stabby.</text>
