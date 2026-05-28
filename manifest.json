@@ -1,0 +1,10 @@
+{
+    "ID": "Ursa_CrossedThreads",
+    "Title": "Crossed Threads",
+    "Description": "",
+    "Version": "0.1.0",
+    "Dependency": "Ursa_CompanionHelpers",
+    "Author": "{{amorous|UrsaCascadia}}",
+    "Tags": "Quest",
+    "PreviewImage": "preview.png"
+}
