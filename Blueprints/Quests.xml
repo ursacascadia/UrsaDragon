@@ -22,8 +22,8 @@
         Accomplishment="You reunited Rofwufufuf and Azhdahak, the exiles of the mountains."
         Hagiograph="In an act of brazen compassion, =name= brought Rofwufufuf to Azhdahak, bringing warmth to their once-solitary lives."
         HagiographCategory="DoesSomethingRad">
-        <step Name="Reunite Rofwufufuf and Azhdahak" Optional="true" XP="2000">
-            <text>Bring Rofwufufuf back to Azhdahak.</text>
+        <step Name="Reunite Rofwufufuf and Azhdahak" XP="2000">
+            <text>Have Rofwufufuf stay with Azhdahak.</text>
         </step>
     </quest>
 </quests>

@@ -57,7 +57,7 @@
     <!-- Azhdahak -->
 
     <conversation ID="UrsaAzhdahak">
-        <start ID="Beginning">
+        <start ID="Beginning" CompleteQuestStep="Crossed Threads~Travel to Azhdahak's den">
             <text>Ah, another drifter. Are you lossst?</text>
             <choice Target="What">What are you?</choice>
             <choice Target="Place">Why do you live in such a remote place?</choice>
@@ -75,7 +75,7 @@
         <node ID="Place" Inherits="Beginning">
             <text>The only other place ee'm welcome is with the dawngliders of the salt dunesss, and they're a hostele flock. It's quiet ere, I have a wide berth. Ere, I acquaint the occasional pilgrym, guide the waywerd. I am happy ere.</text>
         </node>
-        <node ID="Snapjaw" CompleteQuestStep="Crossed Threads~Travel to Azhdahak's den">
+        <node ID="Snapjaw">
             <text>Ay, the little snappy one? It did, for want to slay me. It didn't. Ee had to give him some nasty cuts, but it's okay now. I suppose 'at will be a lesson to it.</text>
             <choice Target="Spared">You spared it?</choice>
             <choice Target="Where">Where did it go?</choice>
@@ -103,7 +103,7 @@
             <text>
                 If you really think it's for the best... I would love to have it.
                 
-                {{rules|Rofwufufuf runs on all fours to the great dragon. He immediately nips and licks Azhdahak's ankles. Azhdahak exhales a puff of ethanol from his nostrils.}}
+                {{rules|Rofwufufuf runs on all fours to the great dragon. He immediately nips and licks Azhdahak's scaled ankles. Azhdahak exhales a puff of ethanol from his nostrils.}}
 
                 Thanksss, =name=. You have my eternal gratitude.
             </text>
@@ -117,7 +117,7 @@
     <!-- Rofwufufuf -->
 
     <conversation ID="UrsaRofwufufuf">
-        <start ID="Beginning">
+        <start ID="Beginning" CompleteQuestStep="Crossed Threads~Find Rofwufufuf">
             <text>
                 wat you want? rofuf want no fite right now.~
                 go. {{emote|*scritch, scritch*}} ruf want no fite.~
@@ -126,8 +126,6 @@
             <choice Target="Weapon">That's an interesting looking weapon.</choice>
             <choice IfHaveQuest="Crossed Threads" Target="Dragon">Why were you after Azhdahak?</choice>
             <choice Target="Howl">{{emote|*howl*}}</choice>
-            <choice Target="End" IfHaveQuest="Crossed Threads" IfNotFinishedQuestStep="Crossed Threads~Find Rofwufufuf" CompleteQuestStep="Crossed Threads~Find Rofwufufuf">Live and drink, fiery one.</choice>
-            <choice Target="End" IfNotHaveQuest="Crossed Threads">Live and drink, fiery one.</choice>
             <choice Target="End" IfFinishedQuestStep="Crossed Threads~Find Rofwufufuf">Live and drink, fiery one.</choice>
         </start>
         <node ID="Weapon" Inherits="Beginning">
