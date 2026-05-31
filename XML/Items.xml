@@ -2,7 +2,7 @@
 <objects>
     <!-- Axes -->
     <object Name="Dragontooth Axe" Inherits="Battle Axe6">
-        <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} axe}}" Tile="Items/Dragontooth.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
         <part Name="Commerce" Value="390" />
         <part Name="Description" Short="A massive tooth, pulled from the maw of a dragon.
@@ -17,7 +17,7 @@
     </object>
 
     <object Name="Dragonscale Axe" Inherits="Battle Axe6">
-        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonscale}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonscale}} axe}}" Tile="Items/Dragonscale.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
         <part Name="Commerce" Value="390" />
         <part Name="ModMasterwork" Tier="2" />
@@ -34,7 +34,7 @@
     </object>
 
     <object Name="Dragonclaw Axe" Inherits="Battle Axe6">
-        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonclaw}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonclaw}} axe}}" Tile="Items/Dragonclaw.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
         <part Name="Commerce" Value="390" />
         <part Name="ModSerrated" />
@@ -51,7 +51,7 @@
     </object>
 
     <object Name="Dragonnail Axe" Inherits="Battle Axe6">
-        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonnail}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonnail}} axe}}" Tile="Items/Dragonnail.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" HitBonus="2" />
         <part Name="Commerce" Value="390" />
         <part Name="ModSerrated" />
@@ -69,7 +69,7 @@
 
     <!-- Machetes -->
     <object Name="Dragontooth Machete" Inherits="Long Sword6">
-        <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} machete}}" Tile="Items/Dragontooth.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
         <part Name="Commerce" Value="390" />
         <part Name="Description" Short="A massive tooth, pulled from the maw of a dragon.
@@ -85,7 +85,7 @@
     </object>
 
     <object Name="Dragonscale Machete" Inherits="Long Sword6">
-        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonscale}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonscale}} machete}}" Tile="Items/Dragonscale.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
         <part Name="Commerce" Value="390" />
         <part Name="ModMasterwork" Tier="2" />
@@ -102,7 +102,7 @@
     </object>
 
     <object Name="Dragonclaw Machete" Inherits="Long Sword6">
-        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonclaw}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonclaw}} machete}}" Tile="Items/Dragonclaw.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
         <part Name="Commerce" Value="390" />
         <part Name="ModSerrated" />
@@ -119,7 +119,7 @@
     </object>
 
     <object Name="Dragonnail Machete" Inherits="Long Sword6">
-        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonnail}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonnail}} machete}}" Tile="Items/Dragonnail.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" HitBonus="2" />
         <part Name="Commerce" Value="390" />
         <part Name="Description" Short="The delicate hind-nail of a massive reptile.
@@ -136,7 +136,7 @@
 
     <!-- Knives -->
     <object Name="Dragontooth Knife" Inherits="Dagger6">
-        <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} knife}}" Tile="Items/Dragontooth.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
         <part Name="Commerce" Value="390" />
         <part Name="Description" Short="A massive tooth, pulled from the maw of a dragon.
@@ -152,7 +152,7 @@
     </object>
 
     <object Name="Dragonscale Knife" Inherits="Dagger6">
-        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonscale}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonscale}} knife}}" Tile="Items/Dragonscale.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
         <part Name="Commerce" Value="390" />
         <part Name="ModMasterwork" Tier="2" />
@@ -169,7 +169,7 @@
     </object>
 
     <object Name="Dragonclaw Knife" Inherits="Dagger6">
-        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonclaw}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonclaw}} knife}}" Tile="Items/Dragonclaw.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
         <part Name="Commerce" Value="390" />
         <part Name="ModSerrated" />
@@ -186,7 +186,7 @@
     </object>
 
     <object Name="Dragonnail Knife" Inherits="Dagger6">
-        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonnail}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonnail}} knife}}" Tile="Items/Dragonnail.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" HitBonus="2" />
         <part Name="Commerce" Value="390" />
         <part Name="Description" Short="The delicate hind-nail of a massive reptile.
@@ -203,7 +203,7 @@
 
       <!-- Club -->
     <object Name="Dragontooth Club" Inherits="Cudgel6">
-        <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} club}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} club}}" Tile="Items/Dragontooth.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
         <part Name="Commerce" Value="390" />
         <part Name="Description" Short="A massive tooth, pulled from the maw of a dragon.
