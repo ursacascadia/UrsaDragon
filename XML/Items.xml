@@ -11,6 +11,7 @@
         <removepart Name="Metal" />
         <removepart Name="Crysteel" />
         <xtagGrammar Proper="true" />
+        <tag Name="Mods" Value="None" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
@@ -28,6 +29,7 @@
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
         <xtagGrammar Proper="true" />
+        <tag Name="Mods" Value="None" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
@@ -45,6 +47,7 @@
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
         <xtagGrammar Proper="true" />
+        <tag Name="Mods" Value="None" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
@@ -62,6 +65,7 @@
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
         <xtagGrammar Proper="true" />
+        <tag Name="Mods" Value="None" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
@@ -79,6 +83,7 @@
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
         <xtagGrammar Proper="true" />
+        <tag Name="Mods" Value="None" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
@@ -96,6 +101,7 @@
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
         <xtagGrammar Proper="true" />
+        <tag Name="Mods" Value="None" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
@@ -113,6 +119,7 @@
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
         <xtagGrammar Proper="true" />
+        <tag Name="Mods" Value="None" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
@@ -129,6 +136,7 @@
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
         <xtagGrammar Proper="true" />
+        <tag Name="Mods" Value="None" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
@@ -146,6 +154,7 @@
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
         <xtagGrammar Proper="true" />
+        <tag Name="Mods" Value="None" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
@@ -163,6 +172,7 @@
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
         <xtagGrammar Proper="true" />
+        <tag Name="Mods" Value="None" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
@@ -180,6 +190,7 @@
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
         <xtagGrammar Proper="true" />
+        <tag Name="Mods" Value="None" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
@@ -196,6 +207,7 @@
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
         <xtagGrammar Proper="true" />
+        <tag Name="Mods" Value="None" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
@@ -213,6 +225,7 @@
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
         <xtagGrammar Proper="true" />
+        <tag Name="Mods" Value="None" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
