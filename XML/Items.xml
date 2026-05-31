@@ -2,155 +2,219 @@
 <objects>
     <!-- Axes -->
     <object Name="Dragontooth Axe" Inherits="Battle Axe6">
-        <part Name="Render" DisplayName="{{K|{{dragonesque|dragontooth}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
         <part Name="Commerce" Value="390" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="A massive tooth, pulled from the maw of a dragon.
+        
+        Frantic claws and crude tools have honed it into a surprisingly fine axe." />
         <removepart Name="Metal" />
         <removepart Name="Crysteel" />
-        <tag Name="NoSparkingQuest" />
+        <xtagGrammar Proper="true" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+        <tag Name="IndefiniteArticle" Value="the" />
+        <tag Name="DefiniteArticle" Value="the" />
     </object>
 
     <object Name="Dragonscale Axe" Inherits="Battle Axe6">
-        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonscale}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonscale}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
         <part Name="Commerce" Value="390" />
         <part Name="ModMasterwork" Tier="2" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="The stone-sturdy scale of a dragon, shed from a molt.
+        
+        Frantic claws and crude tools have honed it into a surprisingly fine axe." />
         <removepart Name="Metal" />
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
+        <xtagGrammar Proper="true" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+        <tag Name="IndefiniteArticle" Value="the" />
+        <tag Name="DefiniteArticle" Value="the" />
     </object>
 
     <object Name="Dragonclaw Axe" Inherits="Battle Axe6">
-        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonclaw}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonclaw}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
         <part Name="Commerce" Value="390" />
         <part Name="ModSerrated" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="The hardened foreclaw of a massive reptile.
+        
+        Frantic claws and crude tools have honed it into a surprisingly fine axe." />
         <removepart Name="Metal" />
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
+        <xtagGrammar Proper="true" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+        <tag Name="IndefiniteArticle" Value="the" />
+        <tag Name="DefiniteArticle" Value="the" />
     </object>
 
     <object Name="Dragonnail Axe" Inherits="Battle Axe6">
-        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonclaw}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonnail}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" HitBonus="2" />
         <part Name="Commerce" Value="390" />
         <part Name="ModSerrated" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="The delicate hind-nail of a massive reptile.
+        
+        Frantic claws and crude tools have honed it into a surprisingly fine axe." />
         <removepart Name="Metal" />
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
+        <xtagGrammar Proper="true" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+        <tag Name="IndefiniteArticle" Value="the" />
+        <tag Name="DefiniteArticle" Value="the" />
     </object>
 
     <!-- Machetes -->
     <object Name="Dragontooth Machete" Inherits="Long Sword6">
-        <part Name="Render" DisplayName="{{K|{{dragonesque|dragontooth}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
         <part Name="Commerce" Value="390" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="A massive tooth, pulled from the maw of a dragon.
+        
+        Frantic claws and crude tools have honed it into a surprisingly balanced long blade." />
         <removepart Name="Metal" />
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
+        <xtagGrammar Proper="true" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+        <tag Name="IndefiniteArticle" Value="the" />
+        <tag Name="DefiniteArticle" Value="the" />
     </object>
 
     <object Name="Dragonscale Machete" Inherits="Long Sword6">
-        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonscale}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonscale}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
         <part Name="Commerce" Value="390" />
         <part Name="ModMasterwork" Tier="2" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="The stone-sturdy scale of a dragon, shed from a molt.
+        
+        Frantic claws and crude tools have honed it into a surprisingly balanced long blade." />
         <removepart Name="Metal" />
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
+        <xtagGrammar Proper="true" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+        <tag Name="IndefiniteArticle" Value="the" />
+        <tag Name="DefiniteArticle" Value="the" />
     </object>
 
     <object Name="Dragonclaw Machete" Inherits="Long Sword6">
-        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonclaw}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonclaw}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
         <part Name="Commerce" Value="390" />
         <part Name="ModSerrated" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="The hardened foreclaw of a massive reptile.
+        
+        Frantic claws and crude tools have honed it into a surprisingly balanced long blade." />
         <removepart Name="Metal" />
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
+        <xtagGrammar Proper="true" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+        <tag Name="IndefiniteArticle" Value="the" />
+        <tag Name="DefiniteArticle" Value="the" />
     </object>
 
     <object Name="Dragonnail Machete" Inherits="Long Sword6">
-        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonnail}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonnail}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" HitBonus="2" />
         <part Name="Commerce" Value="390" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="The delicate hind-nail of a massive reptile.
+        
+        Frantic claws and crude tools have honed it into a surprisingly balanced long blade." />
         <removepart Name="Metal" />
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
+        <xtagGrammar Proper="true" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+        <tag Name="IndefiniteArticle" Value="the" />
+        <tag Name="DefiniteArticle" Value="the" />
     </object>
 
     <!-- Knives -->
     <object Name="Dragontooth Knife" Inherits="Dagger6">
-        <part Name="Render" DisplayName="{{K|{{dragonesque|dragontooth}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
         <part Name="Commerce" Value="390" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="A massive tooth, pulled from the maw of a dragon.
+        
+        Frantic claws and crude tools have honed it into a surprisingly sharp short blade." />
         <removepart Name="Metal" />
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
+        <xtagGrammar Proper="true" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+        <tag Name="IndefiniteArticle" Value="the" />
+        <tag Name="DefiniteArticle" Value="the" />
     </object>
 
     <object Name="Dragonscale Knife" Inherits="Dagger6">
-        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonscale}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonscale}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
         <part Name="Commerce" Value="390" />
         <part Name="ModMasterwork" Tier="2" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="The stone-sturdy scale of a dragon, shed from a molt.
+
+        Frantic claws and crude tools have honed it into a surprisingly sharp short blade." />
         <removepart Name="Metal" />
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
+        <xtagGrammar Proper="true" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+        <tag Name="IndefiniteArticle" Value="the" />
+        <tag Name="DefiniteArticle" Value="the" />
     </object>
 
     <object Name="Dragonclaw Knife" Inherits="Dagger6">
-        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonclaw}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonclaw}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
         <part Name="Commerce" Value="390" />
         <part Name="ModSerrated" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="The hardened foreclaw of a massive reptile.
+
+        Frantic claws and crude tools have honed it into a surprisingly sharp short blade." />
         <removepart Name="Metal" />
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
+        <xtagGrammar Proper="true" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+        <tag Name="IndefiniteArticle" Value="the" />
+        <tag Name="DefiniteArticle" Value="the" />
     </object>
 
     <object Name="Dragonnail Knife" Inherits="Dagger6">
-        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonnail}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragonnail}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" HitBonus="2" />
         <part Name="Commerce" Value="390" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="The delicate hind-nail of a massive reptile.
+
+        Frantic claws and crude tools have honed it into a surprisingly sharp short blade." />
         <removepart Name="Metal" />
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
+        <xtagGrammar Proper="true" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+        <tag Name="IndefiniteArticle" Value="the" />
+        <tag Name="DefiniteArticle" Value="the" />
     </object>
 
       <!-- Club -->
-    <object Name="Dragontooth Club" Inherits="Dagger6">
-        <part Name="Render" DisplayName="{{K|{{dragonesque|dragontooth}} club}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+    <object Name="Dragontooth Club" Inherits="Cudgel6">
+        <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} club}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
         <part Name="Commerce" Value="390" />
-        <part Name="Description" Short="" />
+        <part Name="Description" Short="A massive tooth, pulled from the maw of a dragon.
+        
+        Careful paws have affixed it to a hilt, making a primitive club." />
         <removepart Name="Metal" />
         <removepart Name="Crysteel" />
         <tag Name="NoSparkingQuest" />
+        <xtagGrammar Proper="true" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+        <tag Name="IndefiniteArticle" Value="the" />
+        <tag Name="DefiniteArticle" Value="the" />
     </object>
 </objects>
