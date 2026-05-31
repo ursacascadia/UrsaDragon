@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<colors>
+    <shaders>
+        <shader Name="dragonesque" Type="alternation" Colors="G-g-K-g-G-W-G-g-W-g" ShowInPicker="true" />
+    </shaders>
+</colors>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+    <!-- Axes -->
+    <object Name="Dragontooth Axe" Inherits="Battle Axe6">
+        <part Name="Render" DisplayName="{{K|{{dragonesque|dragontooth}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
+        <part Name="Commerce" Value="390" />
+        <part Name="Description" Short="" />
+        <removepart Name="Metal" />
+        <removepart Name="Crysteel" />
+        <tag Name="NoSparkingQuest" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    </object>
+
+    <object Name="Dragonscale Axe" Inherits="Battle Axe6">
+        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonscale}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
+        <part Name="Commerce" Value="390" />
+        <part Name="ModMasterwork" Tier="2" />
+        <part Name="Description" Short="" />
+        <removepart Name="Metal" />
+        <removepart Name="Crysteel" />
+        <tag Name="NoSparkingQuest" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    </object>
+
+    <object Name="Dragonclaw Axe" Inherits="Battle Axe6">
+        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonclaw}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
+        <part Name="Commerce" Value="390" />
+        <part Name="ModSerrated" />
+        <part Name="Description" Short="" />
+        <removepart Name="Metal" />
+        <removepart Name="Crysteel" />
+        <tag Name="NoSparkingQuest" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    </object>
+
+    <object Name="Dragonnail Axe" Inherits="Battle Axe6">
+        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonclaw}} axe}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" HitBonus="2" />
+        <part Name="Commerce" Value="390" />
+        <part Name="ModSerrated" />
+        <part Name="Description" Short="" />
+        <removepart Name="Metal" />
+        <removepart Name="Crysteel" />
+        <tag Name="NoSparkingQuest" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    </object>
+
+    <!-- Machetes -->
+    <object Name="Dragontooth Machete" Inherits="Long Sword6">
+        <part Name="Render" DisplayName="{{K|{{dragonesque|dragontooth}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
+        <part Name="Commerce" Value="390" />
+        <part Name="Description" Short="" />
+        <removepart Name="Metal" />
+        <removepart Name="Crysteel" />
+        <tag Name="NoSparkingQuest" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    </object>
+
+    <object Name="Dragonscale Machete" Inherits="Long Sword6">
+        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonscale}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
+        <part Name="Commerce" Value="390" />
+        <part Name="ModMasterwork" Tier="2" />
+        <part Name="Description" Short="" />
+        <removepart Name="Metal" />
+        <removepart Name="Crysteel" />
+        <tag Name="NoSparkingQuest" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    </object>
+
+    <object Name="Dragonclaw Machete" Inherits="Long Sword6">
+        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonclaw}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
+        <part Name="Commerce" Value="390" />
+        <part Name="ModSerrated" />
+        <part Name="Description" Short="" />
+        <removepart Name="Metal" />
+        <removepart Name="Crysteel" />
+        <tag Name="NoSparkingQuest" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    </object>
+
+    <object Name="Dragonnail Machete" Inherits="Long Sword6">
+        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonnail}} machete}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" HitBonus="2" />
+        <part Name="Commerce" Value="390" />
+        <part Name="Description" Short="" />
+        <removepart Name="Metal" />
+        <removepart Name="Crysteel" />
+        <tag Name="NoSparkingQuest" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    </object>
+
+    <!-- Knives -->
+    <object Name="Dragontooth Knife" Inherits="Dagger6">
+        <part Name="Render" DisplayName="{{K|{{dragonesque|dragontooth}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
+        <part Name="Commerce" Value="390" />
+        <part Name="Description" Short="" />
+        <removepart Name="Metal" />
+        <removepart Name="Crysteel" />
+        <tag Name="NoSparkingQuest" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    </object>
+
+    <object Name="Dragonscale Knife" Inherits="Dagger6">
+        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonscale}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
+        <part Name="Commerce" Value="390" />
+        <part Name="ModMasterwork" Tier="2" />
+        <part Name="Description" Short="" />
+        <removepart Name="Metal" />
+        <removepart Name="Crysteel" />
+        <tag Name="NoSparkingQuest" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    </object>
+
+    <object Name="Dragonclaw Knife" Inherits="Dagger6">
+        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonclaw}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
+        <part Name="Commerce" Value="390" />
+        <part Name="ModSerrated" />
+        <part Name="Description" Short="" />
+        <removepart Name="Metal" />
+        <removepart Name="Crysteel" />
+        <tag Name="NoSparkingQuest" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    </object>
+
+    <object Name="Dragonnail Knife" Inherits="Dagger6">
+        <part Name="Render" DisplayName="{{K|{{dragonesque|dragonnail}} knife}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" HitBonus="2" />
+        <part Name="Commerce" Value="390" />
+        <part Name="Description" Short="" />
+        <removepart Name="Metal" />
+        <removepart Name="Crysteel" />
+        <tag Name="NoSparkingQuest" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    </object>
+
+      <!-- Club -->
+    <object Name="Dragontooth Club" Inherits="Dagger6">
+        <part Name="Render" DisplayName="{{K|{{dragonesque|dragontooth}} club}}" Tile="Items/sw_axe_5.bmp" ColorString="&amp;g" DetailColor="K" />
+        <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
+        <part Name="Commerce" Value="390" />
+        <part Name="Description" Short="" />
+        <removepart Name="Metal" />
+        <removepart Name="Crysteel" />
+        <tag Name="NoSparkingQuest" />
+        <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
+    </object>
+</objects>
