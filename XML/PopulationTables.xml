@@ -1,20 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
 <populations>
-    <population Name="DragonWeapons">
+    <population Name="Ursa_DragonWeapons">
         <group Name="Weapons" Style="pickone" Chance="100">
-            <object Blueprint="Dragontooth Hatchet" Weight="1" />
-            <object Blueprint="Dragontooth Machete" Weight="1" />
-            <object Blueprint="Dragontooth Knife " Weight="1" />
-            <object Blueprint="Dragontooth Club" Weight="1" />
-            <object Blueprint="Dragonscale Hatchet" Weight="1" />
-            <object Blueprint="Dragonscale Machete" Weight="1" />
-            <object Blueprint="Dragonscale Knife " Weight="1" />
-            <object Blueprint="Dragonclaw Hatchet" Weight="1" />
-            <object Blueprint="Dragonclaw Machete" Weight="1" />
-            <object Blueprint="Dragonclaw Knife " Weight="1" />
-            <object Blueprint="Dragonnail Hatchet" Weight="1" />
-            <object Blueprint="Dragonnail Machete" Weight="1" />
-            <object Blueprint="Dragonnail Knife " Weight="1" />
+            <object Blueprint="Dragontooth Hatchet" Weight="1" Number="1" />
+            <object Blueprint="Dragontooth Machete" Weight="1" Number="1" />
+            <object Blueprint="Dragontooth Knife " Weight="1" Number="1" />
+            <object Blueprint="Dragontooth Club" Weight="1" Number="1" />
+            <object Blueprint="Dragonscale Hatchet" Weight="1" Number="1" />
+            <object Blueprint="Dragonscale Machete" Weight="1" Number="1" />
+            <object Blueprint="Dragonscale Knife " Weight="1" Number="1" />
+            <object Blueprint="Dragonclaw Hatchet" Weight="1" Number="1" />
+            <object Blueprint="Dragonclaw Machete" Weight="1" Number="1" />
+            <object Blueprint="Dragonclaw Knife " Weight="1" Number="1" />
+            <object Blueprint="Dragonnail Hatchet" Weight="1" Number="1" />
+            <object Blueprint="Dragonnail Machete" Weight="1" Number="1" />
+            <object Blueprint="Dragonnail Knife " Weight="1" Number="1" />
+        </group>
+    </population>
+    <population Name="Ursa_RofwufufufInventory">
+        <group Name="Equipment" Style="pickeach">
+            <object Blueprint="Waterskin" Number="1d3" />
+            <table Name="Ursa_DragonWeapons" />
+            <table Name="HumanoidEquipment" />
+            <table Name="Jerky_MidTiers" Number="13"/>
+            <table Name="Armor 1C" Number="1d3" />
         </group>
     </population>
 </populations>

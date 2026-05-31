@@ -37,6 +37,8 @@
         <stat Name="Hitpoints" Value="180" />
 		<part Name="GivesRep" />
         <mutation Name="SociallyRepugnant" />
+        <skill Name="Multiweapon_Fighting" />
+        <skill Name="Multiweapon_Flurry" />
         <skill Name="LongBlades" />
         <skill Name="LongBladesProficiency" />
         <skill Name="Axe" />
@@ -46,8 +48,7 @@
         <skill Name="Survival" />
         <skill Name="Survival_Trailblazer" />
         <skill Name="Survival_MountainsSurvival" />
-        <inventoryobject Blueprint="Carbide Plate Armor" Number="1" />
-        <tag Name="InventoryPopulationTable" Value="HumanoidEquipment 3" />
+        <tag Name="InventoryPopulationTable" Value="Ursa_RofwufufufInventory" />
         <xtagGrammar Proper="true" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
     </object>
