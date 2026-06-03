@@ -62,7 +62,7 @@
             <choice Target="What">What are you?</choice>
             <choice Target="Place">Why do you live in such a remote place?</choice>
             <choice Target="Snapjaw" IfHaveActiveQuest="Crossed Threads">I'm told a snapjaw was coming here. Did he make it?</choice>
-            <choice Target="Rofwufufuf" IfFinishedQuestStep="Crossed Threads~Find Rofwufufuf" IfHaveCompanion="Ursa_Rofwufufuf" StartQuest="Sparks on the Kindling">You and Rofwufufuf should stay together.</choice>
+            <choice Target="Rofwufufuf" IfFinishedQuestStep="Crossed Threads~Find Rofwufufuf" IfHaveCompanion="Ursa_Rofwufufuf" StartQuest="Sparks on the Kindling" IfNotFinishedQuest="Sparks on the Kindling">You and Rofwufufuf should stay together.</choice>
             <choice Target="End">Live and drink.</choice>
         </start>
         <node ID="What" Inherits="Beginning">
