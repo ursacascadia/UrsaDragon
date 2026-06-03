@@ -107,7 +107,10 @@
 
                 Thanksss, =name=. You have my eternal gratitude.
             </text>
-            <choice Target="End" DismissCompanionToSpeaker="Ursa_Rofwufufuf" CompleteQuestStep="Sparks on the Kindling~Reunite Rofwufufuf and Azhdahak" FinishQuest="Sparks on the Kindling">Live and drink, water-crossed ones.</choice>
+            <choice Target="End" DismissCompanionToSpeaker="Ursa_Rofwufufuf" CompleteQuestStep="Sparks on the Kindling~Reunite Rofwufufuf and Azhdahak" FinishQuest="Sparks on the Kindling">
+                <text>Live and drink, water-crossed ones.</text>
+                <part Name="UrsaStartPostQuest" />
+            </choice>
         </node>
         <node ID="Thanks" Inherits="Beginning">
             <text>Of courssse, pilgrym.</text>
