@@ -3,7 +3,10 @@
     "Title": "Crossed Threads",
     "Description": "",
     "Version": "0.1.0",
-    "Dependency": "Ursa_CompanionHelpers",
+    "Dependencies": {
+        "Ursa_CompanionHelpers": "*",
+        "Sibs_Library": "*"
+    },
     "Author": "{{amorous|UrsaCascadia}}",
     "Tags": "Quest",
     "PreviewImage": "preview.png"
