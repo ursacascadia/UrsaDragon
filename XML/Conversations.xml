@@ -146,7 +146,7 @@
                 azhdak is, very strong, very warm.~
                 ehehe, like see you! {{emote|*He tries to lick your face. You let him.*}}
             </text>
-            <choice Target="AfterSparks" IfNotHaveState="Ursa_DragonWeaponGot">How are you, Rofwufufuf?</choice>
+            <choice Target="AfterSparks" IfHaveState="Ursa_PostQuestTimerFinished" IfNotHaveState="Ursa_DragonWeaponGot">How are you, Rofwufufuf?</choice>
         </start>
         <start ID="Start" Inherits="Beginning" CompleteQuestStep="Crossed Threads~Find Rofwufufuf">
             <text>
