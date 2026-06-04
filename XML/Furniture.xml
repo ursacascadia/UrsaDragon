@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<objects>
+    <object Name="Ursa_AzhdahakDenOven" Inherits="Oven">
+        <part Name="Render" DisplayName="Azhdahak and Rofwufufuf's stone oven" ColorString="&amp;y" DetailColor="R" RenderString="234" Tile="Items/sw_oven.bmp" Occluding="false" RenderIfDark="true" />
+        <part Name="Campfire" PresetMeals="Ursa_AzhRofMeal" />
+        <part Name="Description" Short="Embers crackle in a stone oven, carved into the wall of the den. Pretty stones, dried flowers, and an empty tea kettle decorate the mantle. Warmth and promises of full bellies radiate from the beating heart of the fire." />
+        <tag Name="ExcludeFromDynamicEncounters" />
+    </object>
+    <object Name="Ursa_AzhdahakDenPainting" Inherits="Furniture">
+        <part Name="Render" DisplayName="family portrait" ColorString="&amp;y" DetailColor="R" Tile="" Occluding="false" />
+        <part Name="Description" Short="Blood-crusted wax and flame-licked goatskin portray their three subjects: a snarling beast, a monstrous serpent, and the iron bond you and fate have forged." />
+        <tag Name="ExcludeFromDynamicEncounters" />
+    </object>
+</objects>
