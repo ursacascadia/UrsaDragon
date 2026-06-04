@@ -843,23 +843,29 @@
   <cell X="40" Y="3">
     <object Name="DirtFloor"></object>
     <object Name="Limestone"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="41" Y="3">
     <object Name="DirtFloor"></object>
     <object Name="Random Stone Statue"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="42" Y="3">
     <object Name="DirtFloor"></object>
     <object Name="Floor Cushion"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="43" Y="3">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="44" Y="3">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="45" Y="3">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="46" Y="3">
     <object Name="Limestone"></object>
@@ -1083,32 +1089,36 @@
   <cell X="39" Y="4">
     <object Name="DirtFloor"></object>
     <object Name="Limestone"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="40" Y="4">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="41" Y="4">
     <object Name="DirtFloor"></object>
     <object Name="Floor Cushion"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="42" Y="4">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="43" Y="4">
     <object Name="Ursa_Azhdahak"></object>
     <object Name="DirtFloor"></object>
-    <object Name="GrassPaint"></object>
   </cell>
   <cell X="44" Y="4">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="45" Y="4">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="46" Y="4">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="47" Y="4">
     <object Name="Limestone"></object>
@@ -1332,56 +1342,69 @@
     <object Name="Limestone"></object>
   </cell>
   <cell X="40" Y="5">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="41" Y="5">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="42" Y="5">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="43" Y="5">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="44" Y="5">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="45" Y="5">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="46" Y="5">
     <object Name="DirtFloor"></object>
     <object Name="Floor Cushion"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="47" Y="5">
     <object Name="Limestone"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="48" Y="5">
     <object Name="Limestone"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="49" Y="5">
     <object Name="Limestone"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="50" Y="5">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="51" Y="5">
     <object Name="Book Table"></object>
     <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="52" Y="5">
     <object Name="UndergroundBookshelf"></object>
     <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="53" Y="5">
     <object Name="UndergroundBookshelf"></object>
     <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="54" Y="5">
     <object Name="UndergroundBookshelf"></object>
     <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="55" Y="5">
     <object Name="Limestone"></object>
@@ -1584,60 +1607,62 @@
     <object Name="DirtFloor"></object>
   </cell>
   <cell X="41" Y="6">
-    <object Name="Grassy"></object>
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="42" Y="6">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="43" Y="6">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="44" Y="6">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="45" Y="6">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="46" Y="6">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="47" Y="6">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="48" Y="6">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="49" Y="6">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="50" Y="6">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="51" Y="6">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="52" Y="6">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="53" Y="6">
     <object Name="DirtFloor"></object>
     <object Name="Floor Cushion"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="54" Y="6">
     <object Name="Table"></object>
     <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="55" Y="6">
     <object Name="Limestone"></object>
@@ -1840,50 +1865,54 @@
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="43" Y="7">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="44" Y="7">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="45" Y="7">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="46" Y="7">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="47" Y="7">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="48" Y="7">
     <object Name="Limestone"></object>
-  </cell>
-  <cell X="49" Y="7">
-    <object Name="DirtPath"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
-  <cell X="50" Y="7">
+  <cell X="49" Y="7">
     <object Name="DirtFloor"></object>
+  </cell>
+  <cell X="50" Y="7">
     <object Name="Floor Cushion"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="51" Y="7">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="52" Y="7">
     <object Name="UndergroundBookshelf"></object>
     <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="53" Y="7">
     <object Name="Table"></object>
     <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="54" Y="7">
     <object Name="Limestone"></object>
     <object Name="Table"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="55" Y="7">
     <object Name="Limestone"></object>
@@ -2050,17 +2079,19 @@
     <object Name="Limestone"></object>
   </cell>
   <cell X="37" Y="8">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="38" Y="8">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="39" Y="8">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="40" Y="8">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="41" Y="8">
@@ -2068,37 +2099,37 @@
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="42" Y="8">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="43" Y="8">
     <object Name="Limestone"></object>
   </cell>
   <cell X="44" Y="8">
-    <object Name="DirtPath"></object>
-    <object Name="SpawnBlocker"></object>
+    <object Name="DirtFloor"></object>
   </cell>
   <cell X="45" Y="8">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="46" Y="8">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="47" Y="8">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="48" Y="8">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="49" Y="8">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="50" Y="8">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="51" Y="8">
@@ -2271,17 +2302,19 @@
     <object Name="Limestone"></object>
   </cell>
   <cell X="36" Y="9">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="37" Y="9">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="38" Y="9">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="39" Y="9">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="40" Y="9">
@@ -2290,44 +2323,43 @@
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="41" Y="9">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="42" Y="9">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="43" Y="9">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="44" Y="9">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="45" Y="9">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="46" Y="9">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="47" Y="9">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="48" Y="9">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="49" Y="9">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="50" Y="9">
-    <object Name="DirtPath"></object>
-    <object Name="SpawnBlocker"></object>
+    <object Name="DirtFloor"></object>
   </cell>
   <cell X="51" Y="9">
     <object Name="Limestone"></object>
@@ -2506,59 +2538,60 @@
     <object Name="Limestone"></object>
   </cell>
   <cell X="36" Y="10">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="37" Y="10">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="38" Y="10">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="39" Y="10">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="40" Y="10">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="41" Y="10">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="42" Y="10">
-    <object Name="DirtPath"></object>
-    <object Name="SpawnBlocker"></object>
+    <object Name="DirtFloor"></object>
   </cell>
   <cell X="43" Y="10">
-    <object Name="DirtPath"></object>
-    <object Name="SpawnBlocker"></object>
+    <object Name="DirtFloor"></object>
   </cell>
   <cell X="44" Y="10">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="45" Y="10">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="46" Y="10">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="47" Y="10">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="48" Y="10">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="49" Y="10">
     <object Name="DirtFloor"></object>
     <object Name="Random Stone Statue"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="50" Y="10">
     <object Name="Limestone"></object>
@@ -2740,46 +2773,48 @@
     <object Name="Limestone"></object>
   </cell>
   <cell X="37" Y="11">
-    <object Name="Grassy"></object>
+    <object Name="DirtFloor"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="38" Y="11">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="39" Y="11">
     <object Name="Limestone"></object>
   </cell>
   <cell X="40" Y="11">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="41" Y="11">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="42" Y="11">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="43" Y="11">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="44" Y="11">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="45" Y="11">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="46" Y="11">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="47" Y="11">
     <object Name="DirtFloor"></object>
     <object Name="Random Stone Statue"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="48" Y="11">
     <object Name="Woven Basket"></object>
@@ -2954,23 +2989,23 @@
     <object Name="Random Stone Statue"></object>
   </cell>
   <cell X="40" Y="12">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="41" Y="12">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="42" Y="12">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="43" Y="12">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="44" Y="12">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="45" Y="12">
@@ -3141,17 +3176,18 @@
   </cell>
   <cell X="41" Y="13">
     <object Name="Limestone"></object>
+    <object Name="DirtFloor"></object>
   </cell>
   <cell X="42" Y="13">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="43" Y="13">
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
-    <object Name="DirtPath"></object>
   </cell>
   <cell X="44" Y="13">
-    <object Name="DirtPath"></object>
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="45" Y="13">
@@ -3313,20 +3349,21 @@
     <object Name="Limestone"></object>
   </cell>
   <cell X="43" Y="14">
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
-    <object Name="DirtPath"></object>
   </cell>
   <cell X="44" Y="14">
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
-    <object Name="DirtPath"></object>
   </cell>
   <cell X="45" Y="14">
+    <object Name="DirtFloor"></object>
     <object Name="SpawnBlocker"></object>
-    <object Name="DirtPath"></object>
   </cell>
   <cell X="46" Y="14"></cell>
   <cell X="47" Y="14">
     <object Name="Limestone"></object>
+    <object Name="SpawnBlocker"></object>
   </cell>
   <cell X="48" Y="14">
     <object Name="Limestone"></object>
