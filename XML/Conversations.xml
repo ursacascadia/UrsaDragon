@@ -176,7 +176,7 @@
             </choice>
         </node>
         <node ID="GetWeapon" Inherits="Beginning">
-            <text>use it a lot, oki? ehehe.</text>
+            <text>use it lots, oki? ehehe.</text>
         </node>
     </conversation>
 
