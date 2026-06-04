@@ -4,7 +4,8 @@
     <object Name="Dragontooth Hatchet" Inherits="Battle Axe6">
         <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} hatchet}}" Tile="Items/Dragontooth.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
-        <part Name="Commerce" Value="390" />
+        <part Name="Commerce" Value="1200" />
+        <part Name="Physics" Weight="12" />
         <part Name="Description" Short="A massive tooth, pulled from the maw of a dragon.
         
         Frantic claws and crude tools have honed it into a surprisingly fine axe." />
@@ -21,7 +22,8 @@
     <object Name="Dragonscale Hatchet" Inherits="Battle Axe6">
         <part Name="Render" DisplayName="{{y|{{dragonesque|dragonscale}} hatchet}}" Tile="Items/Dragonscale.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
-        <part Name="Commerce" Value="390" />
+        <part Name="Commerce" Value="1200" />
+        <part Name="Physics" Weight="12" />
         <part Name="ModMasterwork" Tier="2" />
         <part Name="Description" Short="The stone-sturdy scale of a dragon, shed from a molt.
         
@@ -40,7 +42,8 @@
     <object Name="Dragonclaw Hatchet" Inherits="Battle Axe6">
         <part Name="Render" DisplayName="{{y|{{dragonesque|dragonclaw}} hatchet}}" Tile="Items/Dragonclaw.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
-        <part Name="Commerce" Value="390" />
+        <part Name="Commerce" Value="1200" />
+        <part Name="Physics" Weight="12" />
         <part Name="ModSerrated" />
         <part Name="Description" Short="The hardened foreclaw of a massive reptile.
         
@@ -59,7 +62,8 @@
     <object Name="Dragonnail Hatchet" Inherits="Battle Axe6">
         <part Name="Render" DisplayName="{{y|{{dragonesque|dragonnail}} hatchet}}" Tile="Items/Dragonnail.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" HitBonus="2" />
-        <part Name="Commerce" Value="390" />
+        <part Name="Commerce" Value="1200" />
+        <part Name="Physics" Weight="12" />
         <part Name="ModSerrated" />
         <part Name="Description" Short="The delicate hind-nail of a massive reptile.
         
@@ -79,7 +83,8 @@
     <object Name="Dragontooth Machete" Inherits="Long Sword6">
         <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} machete}}" Tile="Items/Dragontooth.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
-        <part Name="Commerce" Value="390" />
+        <part Name="Commerce" Value="1200" />
+        <part Name="Physics" Weight="12" />
         <part Name="Description" Short="A massive tooth, pulled from the maw of a dragon.
         
         Frantic claws and crude tools have honed it into a surprisingly balanced long blade." />
@@ -97,7 +102,8 @@
     <object Name="Dragonscale Machete" Inherits="Long Sword6">
         <part Name="Render" DisplayName="{{y|{{dragonesque|dragonscale}} machete}}" Tile="Items/Dragonscale.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
-        <part Name="Commerce" Value="390" />
+        <part Name="Commerce" Value="1200" />
+        <part Name="Physics" Weight="12" />
         <part Name="ModMasterwork" Tier="2" />
         <part Name="Description" Short="The stone-sturdy scale of a dragon, shed from a molt.
         
@@ -116,7 +122,8 @@
     <object Name="Dragonclaw Machete" Inherits="Long Sword6">
         <part Name="Render" DisplayName="{{y|{{dragonesque|dragonclaw}} machete}}" Tile="Items/Dragonclaw.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
-        <part Name="Commerce" Value="390" />
+        <part Name="Commerce" Value="1200" />
+        <part Name="Physics" Weight="12" />
         <part Name="ModSerrated" />
         <part Name="Description" Short="The hardened foreclaw of a massive reptile.
         
@@ -135,7 +142,8 @@
     <object Name="Dragonnail Machete" Inherits="Long Sword6">
         <part Name="Render" DisplayName="{{y|{{dragonesque|dragonnail}} machete}}" Tile="Items/Dragonnail.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" HitBonus="2" />
-        <part Name="Commerce" Value="390" />
+        <part Name="Commerce" Value="1200" />
+        <part Name="Physics" Weight="12" />
         <part Name="Description" Short="The delicate hind-nail of a massive reptile.
         
         Frantic claws and crude tools have honed it into a surprisingly balanced long blade." />
@@ -154,7 +162,8 @@
     <object Name="Dragontooth Knife" Inherits="Dagger6">
         <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} knife}}" Tile="Items/Dragontooth.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
-        <part Name="Commerce" Value="390" />
+        <part Name="Commerce" Value="1200" />
+        <part Name="Physics" Weight="12" />
         <part Name="Description" Short="A massive tooth, pulled from the maw of a dragon.
         
         Frantic claws and crude tools have honed it into a surprisingly sharp short blade." />
@@ -172,7 +181,8 @@
     <object Name="Dragonscale Knife" Inherits="Dagger6">
         <part Name="Render" DisplayName="{{y|{{dragonesque|dragonscale}} knife}}" Tile="Items/Dragonscale.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
-        <part Name="Commerce" Value="390" />
+        <part Name="Commerce" Value="1200" />
+        <part Name="Physics" Weight="12" />
         <part Name="ModMasterwork" Tier="2" />
         <part Name="Description" Short="The stone-sturdy scale of a dragon, shed from a molt.
 
@@ -191,7 +201,8 @@
     <object Name="Dragonclaw Knife" Inherits="Dagger6">
         <part Name="Render" DisplayName="{{y|{{dragonesque|dragonclaw}} knife}}" Tile="Items/Dragonclaw.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" />
-        <part Name="Commerce" Value="390" />
+        <part Name="Commerce" Value="1200" />
+        <part Name="Physics" Weight="12" />
         <part Name="ModSerrated" />
         <part Name="Description" Short="The hardened foreclaw of a massive reptile.
 
@@ -210,7 +221,8 @@
     <object Name="Dragonnail Knife" Inherits="Dagger6">
         <part Name="Render" DisplayName="{{y|{{dragonesque|dragonnail}} knife}}" Tile="Items/Dragonnail.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" HitBonus="2" />
-        <part Name="Commerce" Value="390" />
+        <part Name="Commerce" Value="1200" />
+        <part Name="Physics" Weight="12" />
         <part Name="Description" Short="The delicate hind-nail of a massive reptile.
 
         Frantic claws and crude tools have honed it into a surprisingly sharp short blade." />
@@ -229,7 +241,8 @@
     <object Name="Dragontooth Club" Inherits="Cudgel6">
         <part Name="Render" DisplayName="{{y|{{dragonesque|dragontooth}} club}}" Tile="Items/Dragontooth.png" ColorString="&amp;G" DetailColor="W" />
         <part Name="MeleeWeapon" MaxStrengthBonus="7" BaseDamage="1d8+2" PenBonus="2" />
-        <part Name="Commerce" Value="390" />
+        <part Name="Commerce" Value="1200" />
+        <part Name="Physics" Weight="12" />
         <part Name="Description" Short="A massive tooth, pulled from the maw of a dragon.
         
         Careful paws have affixed it to a hilt, making a primitive club." />
