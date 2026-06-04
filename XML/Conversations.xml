@@ -71,8 +71,8 @@
         <start ID="PostIntroduction" Inherits="Beginning" IfNotTestState="Ursa_PostQuestTimerFinished" IfFinishedQuestStep="Crossed Threads~Travel to Azhdahak's den">
             <text>Welcome back, drifter.</text>
         </start>
-        <start ID="First" Inherits="Beginning">
-            <text CompleteQuestStep="Crossed Threads~Travel to Azhdahak's den">Ah, another drifter. Are you lossst?</text>
+        <start ID="First" Inherits="Beginning" CompleteQuestStep="Crossed Threads~Travel to Azhdahak's den">
+            <text>Ah, another drifter. Are you lossst?</text>
         </start>
         <node ID="What" Inherits="Beginning">
             <text>A dragon, a beast the eaters knew well, from a time before even 'ey lived.</text>
@@ -136,22 +136,26 @@
     <!-- Rofwufufuf -->
 
     <conversation ID="UrsaRofwufufuf">
-        <start ID="Beginning" CompleteQuestStep="Crossed Threads~Find Rofwufufuf">
-            <text IfFinishedQuest="Sparks on the Kindling">
+        <node ID="Beginning">
+            <choice Target="Weapon" IfNotFinishedQuest="Sparks on the Kindling">That's an interesting looking weapon.</choice>
+            <choice IfHaveQuest="Crossed Threads" IfNotFinishedQuest="Sparks on the Kindling" Target="Dragon">Why were you after Azhdahak?</choice>
+            <choice Target="PostQuest" IfTestState="Ursa_PostQuestTimerFinished" IfNotHaveState="Ursa_DragonWeaponGot">How are you, Rofwufufuf?</choice>
+            <choice Target="Howl">{{emote|*howl*}}</choice>
+            <choice Target="End" IfFinishedQuestStep="Crossed Threads~Find Rofwufufuf">Live and drink, fiery one.</choice>
+        </node>
+        <start ID="PostSparks" Inherits="Beginning" IfFinishedQuest="Sparks on the Kindling">
+            <text>
                 ah, ehehe. hi =name=.~
                 azhdak, very strong, very warm.~
                 ehehe, like see you! {{emote|*He tries to lick your face. You let him.*}}
             </text>
-            <text IfNotFinishedQuest="Sparks on the Kindling">
+        </start>
+        <start ID="Start" Inherits="Beginning" CompleteQuestStep="Crossed Threads~Find Rofwufufuf">
+            <text>
                 wat you want? rofuf want no fite right now.~
                 go. {{emote|*scritch, scritch*}} ruf want no fite.~
                 {{emote|*scritch scritch. It's ignoring you.*}} 
             </text>
-            <choice Target="Weapon">That's an interesting looking weapon.</choice>
-            <choice IfHaveQuest="Crossed Threads" Target="Dragon">Why were you after Azhdahak?</choice>
-            <choice Target="PostQuest" IfTestState="Ursa_PostQuestTimerFinished" IfNotHaveState="Ursa_DragonWeaponGot">How are you, Rofwufufuf?</choice>
-            <choice Target="Howl">{{emote|*howl*}}</choice>
-            <choice Target="End" IfFinishedQuestStep="Crossed Threads~Find Rofwufufuf">Live and drink, fiery one.</choice>
         </start>
         <node ID="Weapon" Inherits="Beginning">
             <text>tanks, ehehe. rof got it from big d... daggon. make it big stabby-stabby.</text>
