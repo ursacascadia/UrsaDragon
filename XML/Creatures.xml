@@ -28,7 +28,7 @@
         <part Name="Render" DisplayName="Rofwufufuf" Tile="Creatures/Rofwufufuf.png" RenderString="s" ColorString="&amp;w" DetailColor="B" />
         <part Name="Description" Short="Scraps of fur over outstretched muscle conceal a familiar shape; that of gnashing teeth and primal belonging. One would assume such a form lie with tribeskin, if not for the star-borne glow in place of tail. Ears perked in anticipation, he takes no order from the howlers: he plies the hills at the beck and call of the wind." />
         <part Name="Brain" Wanders="False" Hostile="False" Calm="True" Factions="Snapjaws-25,Pariahs-100" />
-        <tag Name="PetResponse" Value="pets you back,purrs,gets scrunky,stares through you,paws at you,chippers a growl" />
+        <tag Name="PetResponse" Value="pets you back,purrs,gets scrunkly,stares through you,paws at you,chippers a growl" />
         <tag Name="RandomGender" Value="neuter,male" />
         <tag Name="NoHateFactions" Value="Unshelled Reptiles,Birds" />
         <part Name="ConversationScript" ConversationID="UrsaRofwufufuf" ClearLost="true" />
