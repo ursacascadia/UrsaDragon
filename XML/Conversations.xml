@@ -58,11 +58,14 @@
 
     <conversation ID="UrsaAzhdahak">
         <start ID="Beginning" CompleteQuestStep="Crossed Threads~Travel to Azhdahak's den">
-            <text>Ah, another drifter. Are you lossst?</text>
+            <text CompleteQuestStep="Crossed Threads~Travel to Azhdahak's den">Ah, another drifter. Are you lossst?</text>
+            <text IfNotTestState="Ursa_PostQuestTimerFinished" IfFinishedQuestStep="Crossed Threads~Travel to Azhdahak's den">Welcome back, drifter.</text>
+            <text IfTestState="Ursa_PostQuestTimerFinished">Ah, welcome back, =name=. You are alwaysss welcome in our home.</text>
             <choice Target="What">What are you?</choice>
             <choice Target="Place">Why do you live in such a remote place?</choice>
             <choice Target="Snapjaw" IfHaveActiveQuest="Crossed Threads">I'm told a snapjaw was coming here. Did he make it?</choice>
             <choice Target="Rofwufufuf" IfFinishedQuestStep="Crossed Threads~Find Rofwufufuf" IfHaveCompanion="Ursa_Rofwufufuf" StartQuest="Sparks on the Kindling" IfNotFinishedQuest="Sparks on the Kindling">You and Rofwufufuf should stay together.</choice>
+            <choice Target="PostContent" IfTestState="Ursa_PostQuestTimerFinished">You and Rofwufufuf seem to be settling in nicely.</choice>
             <choice Target="End">Live and drink.</choice>
         </start>
         <node ID="What" Inherits="Beginning">
@@ -99,6 +102,13 @@
         <node ID="Not" Inherits="Beginning">
             <text>It's for the bessst...</text>
         </node>
+        <node ID="PostContent" Inherits="Beginning">
+            <text>
+                It's been very pleasant. I've been helping Rofwufufuf cook more mammalian cuisine. Please, help yourself to our oven.
+
+                Oh, and he made something for you. He's actually very deft with those cute little paws of his. You should speak to him. He isn't the most polite, but I hope you know we are both very grateful.
+            </text>
+        </node>
         <node ID="Stay">
             <text>
                 If you really think it's for the best... I would love to have it.
@@ -121,13 +131,19 @@
 
     <conversation ID="UrsaRofwufufuf">
         <start ID="Beginning" CompleteQuestStep="Crossed Threads~Find Rofwufufuf">
-            <text>
+            <text IfNotFinishedQuest="Sparks on the Kindling">
                 wat you want? rofuf want no fite right now.~
                 go. {{emote|*scritch, scritch*}} ruf want no fite.~
                 {{emote|*scritch scritch. It's ignoring you.*}} 
             </text>
+            <text IfFinishedQuest="Sparks on the Kindling">
+                ah, ehehe. hi =name=.~
+                azhdak, very strong, very warm.~
+                ehehe, like see you! {{emote|*He tries to lick your face. You let him.*}}
+            </text>
             <choice Target="Weapon">That's an interesting looking weapon.</choice>
             <choice IfHaveQuest="Crossed Threads" Target="Dragon">Why were you after Azhdahak?</choice>
+            <choice Target="PostQuest" IfTestState="Ursa_PostQuestTimerFinished" IfNotHaveState="Ursa_DragonWeaponGot">How are you, Rofwufufuf?</choice>
             <choice Target="Howl">{{emote|*howl*}}</choice>
             <choice Target="End" IfFinishedQuestStep="Crossed Threads~Find Rofwufufuf">Live and drink, fiery one.</choice>
         </start>
@@ -139,6 +155,22 @@
         </node>
         <node ID="Howl" Inherits="Beginning">
             <text>{{emote|*Rofwufufuf tilts =pronouns.possessive= head back with you and screams a howl at the heavens.*}}</text>
+        </node>
+        <node ID="PostQuest">
+            <text>
+                ehehehe, rofuf happy. like azhdak.
+
+                {{emote|*He drops on all fours and gnaws a weapon hilt from his belt, dropping it on the floor. He nudges it toward you with his nose.*}}
+
+                take this. ehehe. made this for you.
+            </text>
+            <choice Target="GetWeapon" SetBooleanState="Ursa_DragonWeaponGot,true">
+                <text>Thank you, Rof.</text>
+                <part Name="ReceiveItem" Table="Ursa_DragonWeapons" Identify="All" />
+            </choice>
+        </node>
+        <node ID="GetWeapon" Inherits="Beginning">
+            <text>use it a lot, oki? ehehe.</text>
         </node>
     </conversation>
 
