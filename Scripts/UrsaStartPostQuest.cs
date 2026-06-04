@@ -17,7 +17,10 @@ public class UrsaStartPostQuest : IConversationPart
     {
         The.Speaker.RequirePart<UrsaPostQuest>(); // Give Azh this part
         The.Speaker.FireEvent("StartPostQuestTimer");
-        The.ActiveZone.FindFirstObject("Ursa_Rofwufufuf")?.RequirePart<Pettable>();
+        Pettable part = The.ActiveZone.FindFirstObject("Ursa_Rofwufufuf")?.RequirePart<Pettable>();
+         if (part is not null) {
+            part.UseFactionForFeelingFloor  = "Pariahs";
+        }
         return base.HandleEvent(E);
     }
 }
