@@ -49,6 +49,7 @@
         <skill Name="Survival_Trailblazer" />
         <skill Name="Survival_MountainsSurvival" />
         <tag Name="InventoryPopulationTable" Value="Ursa_RofwufufufInventory" />
+        <tag Name="WontSellTag" Value="DragonWeapon" />
         <xtagGrammar Proper="true" />
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
     </object>

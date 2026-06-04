@@ -15,6 +15,7 @@
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
+        <tag Name="DragonWeapon" />
     </object>
 
     <object Name="Dragonscale Hatchet" Inherits="Battle Axe6">
@@ -33,6 +34,7 @@
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
+        <tag Name="DragonWeapon" />
     </object>
 
     <object Name="Dragonclaw Hatchet" Inherits="Battle Axe6">
@@ -51,6 +53,7 @@
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
+        <tag Name="DragonWeapon" />
     </object>
 
     <object Name="Dragonnail Hatchet" Inherits="Battle Axe6">
@@ -69,6 +72,7 @@
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
+        <tag Name="DragonWeapon" />
     </object>
 
     <!-- Machetes -->
@@ -87,6 +91,7 @@
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
+        <tag Name="DragonWeapon" />
     </object>
 
     <object Name="Dragonscale Machete" Inherits="Long Sword6">
@@ -105,6 +110,7 @@
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
+        <tag Name="DragonWeapon" />
     </object>
 
     <object Name="Dragonclaw Machete" Inherits="Long Sword6">
@@ -123,6 +129,7 @@
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
+        <tag Name="DragonWeapon" />
     </object>
 
     <object Name="Dragonnail Machete" Inherits="Long Sword6">
@@ -140,6 +147,7 @@
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
+        <tag Name="DragonWeapon" />
     </object>
 
     <!-- Knives -->
@@ -158,6 +166,7 @@
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
+        <tag Name="DragonWeapon" />
     </object>
 
     <object Name="Dragonscale Knife" Inherits="Dagger6">
@@ -176,6 +185,7 @@
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
+        <tag Name="DragonWeapon" />
     </object>
 
     <object Name="Dragonclaw Knife" Inherits="Dagger6">
@@ -194,6 +204,7 @@
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
+        <tag Name="DragonWeapon" />
     </object>
 
     <object Name="Dragonnail Knife" Inherits="Dagger6">
@@ -211,6 +222,7 @@
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
+        <tag Name="DragonWeapon" />
     </object>
 
       <!-- Club -->
@@ -229,5 +241,6 @@
         <tag Name="ExcludeFromDynamicEncounters" Value="*noinherit" />
         <tag Name="IndefiniteArticle" Value="the" />
         <tag Name="DefiniteArticle" Value="the" />
+        <tag Name="DragonWeapon" />
     </object>
 </objects>
