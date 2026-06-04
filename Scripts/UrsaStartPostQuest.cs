@@ -15,8 +15,9 @@ public class UrsaStartPostQuest : IConversationPart
 
     public override bool HandleEvent(EnteredElementEvent E)
     {
-        The.Speaker.RequirePart<UrsaPostQuest>();
+        The.Speaker.RequirePart<UrsaPostQuest>(); // Give Azh this part
         The.Speaker.FireEvent("StartPostQuestTimer");
+        The.ActiveZone.FindFirstObject("Ursa_Rofwufufuf")?.RequirePart<Pettable>();
         return base.HandleEvent(E);
     }
 }
