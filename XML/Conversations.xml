@@ -57,16 +57,22 @@
     <!-- Azhdahak -->
 
     <conversation ID="UrsaAzhdahak">
-        <start ID="Beginning" CompleteQuestStep="Crossed Threads~Travel to Azhdahak's den">
-            <text CompleteQuestStep="Crossed Threads~Travel to Azhdahak's den">Ah, another drifter. Are you lossst?</text>
-            <text IfNotTestState="Ursa_PostQuestTimerFinished" IfFinishedQuestStep="Crossed Threads~Travel to Azhdahak's den">Welcome back, drifter.</text>
-            <text IfTestState="Ursa_PostQuestTimerFinished">Ah, welcome back, =name=. You are alwaysss welcome in our home.</text>
+        <node ID="Beginning">
             <choice Target="What">What are you?</choice>
             <choice Target="Place">Why do you live in such a remote place?</choice>
-            <choice Target="Snapjaw" IfHaveActiveQuest="Crossed Threads">I'm told a snapjaw was coming here. Did he make it?</choice>
+            <choice Target="Snapjaw" IfHaveActiveQuest="Crossed Threads" IfNotFinishedQuestStep="Crossed Threads~Find Rofwufufuf">I'm told a snapjaw was coming here. Did he make it?</choice>
             <choice Target="Rofwufufuf" IfFinishedQuestStep="Crossed Threads~Find Rofwufufuf" IfHaveCompanion="Ursa_Rofwufufuf" StartQuest="Sparks on the Kindling" IfNotFinishedQuest="Sparks on the Kindling">You and Rofwufufuf should stay together.</choice>
             <choice Target="PostContent" IfTestState="Ursa_PostQuestTimerFinished">You and Rofwufufuf seem to be settling in nicely.</choice>
             <choice Target="End">Live and drink.</choice>
+        </node>
+        <start ID="AfterTimePassed" Inherits="Beginning" IfTestState="Ursa_PostQuestTimerFinished">
+            <text IfTestState="Ursa_PostQuestTimerFinished">Ah, welcome back, =name=. You are alwaysss welcome in our home.</text>
+        </start>
+        <start ID="PostIntroduction" Inherits="Beginning" IfNotTestState="Ursa_PostQuestTimerFinished" IfFinishedQuestStep="Crossed Threads~Travel to Azhdahak's den">
+            <text>Welcome back, drifter.</text>
+        </start>
+        <start ID="First" Inherits="Beginning">
+            <text CompleteQuestStep="Crossed Threads~Travel to Azhdahak's den">Ah, another drifter. Are you lossst?</text>
         </start>
         <node ID="What" Inherits="Beginning">
             <text>A dragon, a beast the eaters knew well, from a time before even 'ey lived.</text>
