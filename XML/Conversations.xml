@@ -137,15 +137,15 @@
 
     <conversation ID="UrsaRofwufufuf">
         <start ID="Beginning" CompleteQuestStep="Crossed Threads~Find Rofwufufuf">
-            <text IfNotFinishedQuest="Sparks on the Kindling">
-                wat you want? rofuf want no fite right now.~
-                go. {{emote|*scritch, scritch*}} ruf want no fite.~
-                {{emote|*scritch scritch. It's ignoring you.*}} 
-            </text>
             <text IfFinishedQuest="Sparks on the Kindling">
                 ah, ehehe. hi =name=.~
                 azhdak, very strong, very warm.~
                 ehehe, like see you! {{emote|*He tries to lick your face. You let him.*}}
+            </text>
+            <text IfNotFinishedQuest="Sparks on the Kindling">
+                wat you want? rofuf want no fite right now.~
+                go. {{emote|*scritch, scritch*}} ruf want no fite.~
+                {{emote|*scritch scritch. It's ignoring you.*}} 
             </text>
             <choice Target="Weapon">That's an interesting looking weapon.</choice>
             <choice IfHaveQuest="Crossed Threads" Target="Dragon">Why were you after Azhdahak?</choice>
