@@ -137,18 +137,16 @@
 
     <conversation ID="UrsaRofwufufuf">
         <node ID="Beginning">
-            <choice Target="Weapon" IfNotFinishedQuest="Sparks on the Kindling">That's an interesting looking weapon.</choice>
-            <choice IfHaveQuest="Crossed Threads" IfNotFinishedQuest="Sparks on the Kindling" Target="Dragon">Why were you after Azhdahak?</choice>
-            <choice Target="PostQuest" IfTestState="Ursa_PostQuestTimerFinished" IfNotHaveState="Ursa_DragonWeaponGot">How are you, Rofwufufuf?</choice>
             <choice Target="Howl">{{emote|*howl*}}</choice>
-            <choice Target="End" IfFinishedQuestStep="Crossed Threads~Find Rofwufufuf">Live and drink, fiery one.</choice>
+            <choice Target="End">Live and drink, fiery one.</choice>
         </node>
         <start ID="PostSparks" Inherits="Beginning" IfFinishedQuest="Sparks on the Kindling">
             <text>
                 ah, ehehe. hi =name=.~
-                azhdak, very strong, very warm.~
+                azhdak is, very strong, very warm.~
                 ehehe, like see you! {{emote|*He tries to lick your face. You let him.*}}
             </text>
+            <choice Target="AfterSparks" IfNotHaveState="Ursa_DragonWeaponGot">How are you, Rofwufufuf?</choice>
         </start>
         <start ID="Start" Inherits="Beginning" CompleteQuestStep="Crossed Threads~Find Rofwufufuf">
             <text>
@@ -156,6 +154,8 @@
                 go. {{emote|*scritch, scritch*}} ruf want no fite.~
                 {{emote|*scritch scritch. It's ignoring you.*}} 
             </text>
+            <choice Target="Weapon">That's an interesting looking weapon.</choice>
+            <choice IfHaveQuest="Crossed Threads" Target="Dragon">Why were you after Azhdahak?</choice>
         </start>
         <node ID="Weapon" Inherits="Beginning">
             <text>tanks, ehehe. rof got it from big d... daggon. make it big stabby-stabby.</text>
@@ -166,7 +166,7 @@
         <node ID="Howl" Inherits="Beginning">
             <text>{{emote|*Rofwufufuf tilts =pronouns.possessive= head back with you and screams a howl at the heavens.*}}</text>
         </node>
-        <node ID="PostQuest">
+        <node ID="AfterSparks">
             <text>
                 ehehehe, rofuf happy. like azhdak.
 
