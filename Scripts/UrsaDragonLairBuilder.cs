@@ -20,8 +20,8 @@ namespace Ursa.Dragon
 
             // define array of valid locations
 
-            int[] locations_x = {24,43,64,65,70,77};
-            int[] locations_y = {0, 0, 0, 0, 4, 0 };
+            int[] locations_x = {64,65,70,77};
+            int[] locations_y = {0, 0, 4, 0 };
 
             Random rnd = new Random();
             int rndint = rnd.Next(6);
