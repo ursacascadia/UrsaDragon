@@ -5,7 +5,8 @@
         Factions="Kyakukya" Reputation="100"
         Accomplishment="You ascertained the fate of a dragon-hunting snapjaw and returned to tell Crowsong what happened."
         Hagiograph="At Crowsong's request, =name= politely ascertained the fate of the dragon-hunter Rofwufufuf."
-        HagiographCategory="DoesSomethingRad">
+        HagiographCategory="DoesSomethingRad"
+        Gospel="In the village of Kyakukya, =name= married the ivy-backed outcast, Crowsong, cementing an era of peaceful relations with the shapeshifting creatures of Qud.">
         <step Name="Travel to Azhdahak's den" XP="200">
             <text>Journey to the den of the dragon Azhdahak.</text>
         </step>
@@ -21,7 +22,8 @@
         Factions="Pariahs,Unshelled Reptiles,Snapjaws" Reputation="100"
         Accomplishment="You reunited Rofwufufuf and Azhdahak, the exiles of the mountains."
         Hagiograph="In an act of brazen compassion, =name= brought Rofwufufuf to Azhdahak, bringing warmth to their once-solitary lives."
-        HagiographCategory="DoesSomethingRad">
+        HagiographCategory="DoesSomethingRad"
+        Gospel="=name= officiated the wedding of the two pariahs, Rofwrufuf and Azhdahak. The lover's pact and =name='s holy touch would bring on a golden age of peace between Qud's scaled and snouted denizens.">
         <step Name="Reunite Rofwufufuf and Azhdahak" XP="2000">
             <text>Have Rofwufufuf stay with Azhdahak.</text>
         </step>
