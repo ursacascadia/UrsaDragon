@@ -24,28 +24,28 @@ namespace Ursa.Dragon
             int[] locations_y = {0, 0, 4, 0 };
 
             Random rnd = new Random();
-            int rndint = rnd.Next(6);
+            int rndint = rnd.Next(locations_x.GetLength(0));
 
             Location2D loc = Location2D.Get(locations_x[rndint]*3, locations_y[rndint]*3);
 
+            // Place the den in a random cardinality to the center of the parasang
+            loc = Location2D.Get(loc.X + rnd.Next(3), loc.Y);
+            loc = Location2D.Get(loc.X, loc.Y + rnd.Next(3));
+
             // Failsafe cases
-            if (mutableMap.GetMutable(loc) == 0){ // If location isn't mutable (0), cycle through locations until we find one that is.
-                for (int i=0; i<6; i++)
+            if (mutableMap.GetMutable(loc) == 0){ // If location isn't mutable (0), cycle through central locations until we find one that is.
+                for (int i=0; i < locations_x.GetLength(0); i++)
                 {
-                    loc = Location2D.Get(locations_x[i]*3, locations_y[i]*3);
+                    loc = Location2D.Get(locations_x[i]*3+1, locations_y[i]*3+1); // Set location to center of each parasang sequentially
                     if (mutableMap.GetMutable(loc) == 1)
                     {
-                        break;
+                        break; // break if we find mutable zone in center of one of our parasangs
                     }
                 }
                 if (mutableMap.GetMutable(loc) == 0){ // if all else fails, just pop random mountain terrain.
                     loc = builder.popMutableBlockOfTerrain("Mountains");
                 }
             }
-
-            // Place the den in a random cardinality to the center of the parasang
-            loc = Location2D.Get(loc.X + rnd.Next(3), loc.Y);
-            loc = Location2D.Get(loc.X, loc.Y + rnd.Next(3));
 
             string zoneid = builder.ZoneIDFromXY("JoppaWorld", loc.X, loc.Y);
 
