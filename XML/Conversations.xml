@@ -100,7 +100,7 @@
             <text>
                 Ey... does it want for that?
 
-                {{rules|You look at Rofwufufuf. His eyes fixate on Azhdahak, his forepaws submissively sprawled on the floor before Azhdahak.}}
+                {{emote|*You look at Rofwufufuf. His eyes fixate on Azhdahak, his forepaws submissively sprawled on the floor before Azhdahak. He yelps excitedly.*}}
             </text>
             <choice Target="Stay">Of course it does.</choice>
             <choice Target="Not">I don't know.</choice>
@@ -110,7 +110,7 @@
         </node>
         <node ID="PostContent" Inherits="Beginning">
             <text>
-                It's been very pleasant. I've been helping Rofwufufuf cook more mammalian cuisine. Please, help yourself to our oven.
+                It's been very pleasant. I've been helping Rofwufufuf cook more mammalian cuisine. Please, help yourssself to our oven.
 
                 Oh, and he made something for you. He's actually very deft with those cute little paws of his. You should speak to him. He isn't the most polite, but I hope you know we are both very grateful.
             </text>
@@ -119,7 +119,7 @@
             <text>
                 If you really think it's for the best... I would love to have it.
                 
-                {{rules|Rofwufufuf runs on all fours to the great dragon. He immediately nips and licks Azhdahak's scaled ankles. Azhdahak exhales a puff of ethanol from his nostrils.}}
+                {{emote|*Rofwufufuf runs on all fours to the great dragon. He immediately nips and licks Azhdahak's scaled ankles. Azhdahak exhales a puff of ethanol from his nostrils.*}}
 
                 Thanksss, =name=. You have my eternal gratitude.
             </text>
