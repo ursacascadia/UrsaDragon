@@ -61,7 +61,7 @@
             <choice Target="What">What are you?</choice>
             <choice Target="Place">Why do you live in such a remote place?</choice>
             <choice Target="Snapjaw" IfHaveActiveQuest="Crossed Threads" IfNotFinishedQuestStep="Crossed Threads~Find Rofwufufuf">I'm told a snapjaw was coming here. Did he make it?</choice>
-            <choice Target="Rofwufufuf" IfFinishedQuestStep="Crossed Threads~Find Rofwufufuf" IfHaveCompanion="Ursa_Rofwufufuf" StartQuest="Sparks on the Kindling" IfNotFinishedQuest="Sparks on the Kindling">You and Rofwufufuf should stay together.</choice>
+            <choice Target="Rofwufufuf" IfFinishedQuestStep="Crossed Threads~Find Rofwufufuf" IfHaveCompanion="Ursa_Rofwufufuf" StartQuest="Sparks on the Kindling" IfNotFinishedQuest="Sparks on the Kindling">You seem taken with Rofwufufuf. Why not ask him to stay with you?</choice>
             <choice Target="PostContent" IfTestState="Ursa_PostQuestTimerFinished">You and Rofwufufuf seem to be settling in nicely.</choice>
             <choice Target="End">Live and drink.</choice>
         </node>
@@ -98,35 +98,35 @@
         </node>
         <node ID="Rofwufufuf">
             <text>
-                Ey... does it want for that?
+                {{emote|*Rofwufufuf's ears perk as he hears his name and your suggestion. His eyes sharpen on Azhdahak, and he yips.*}}
 
-                {{emote|*You look at Rofwufufuf. His eyes fixate on Azhdahak, his forepaws submissively sprawled on the floor before Azhdahak. He yelps excitedly.*}}
+                We exiled beasssts often are alone for good reason, but, ey... woulds't it want that?
             </text>
-            <choice Target="Stay">Of course it does.</choice>
-            <choice Target="Not">I don't know.</choice>
+            <choice Target="Stay">You should ask him yourself.</choice>
+            <choice Target="Not">It's too late. He's my companion now.</choice>
         </node>
         <node ID="Not" Inherits="Beginning">
-            <text>It's for the bessst...</text>
-        </node>
-        <node ID="PostContent" Inherits="Beginning">
-            <text>
-                It's been very pleasant. I've been helping Rofwufufuf cook more mammalian cuisine. Please, help yourssself to our oven.
-
-                Oh, and he made something for you. He's actually very deft with those cute little paws of his. You should speak to him. He isn't the most polite, but I hope you know we are both very grateful.
-            </text>
+            <text>Perhaps it's for the best thisss way.</text>
         </node>
         <node ID="Stay">
             <text>
-                If you really think it's for the best... I would love to have it.
+                Well. If you would like, Rofwufufuf, ey would 'ave you fer as long as you'd wish to ssstay.
                 
-                {{emote|*Rofwufufuf runs on all fours to the great dragon. He immediately nips and licks Azhdahak's scaled ankles. Azhdahak exhales a puff of ethanol from his nostrils.*}}
+                {{emote|*Rofwufufuf snarls and runs on all fours to the great dragon. He immediately nips and licks Azhdahak's scaled ankles. Azhdahak growls and exhales a puff of ethanol from his nostrils.*}}
 
-                Thanksss, =name=. You have my eternal gratitude.
+                Thanksss, =name=. Ye have my eternal gratitude.
             </text>
             <choice Target="End" DismissCompanionToSpeaker="Ursa_Rofwufufuf" CompleteQuestStep="Sparks on the Kindling~Reunite Rofwufufuf and Azhdahak" FinishQuest="Sparks on the Kindling">
                 <text>Live and drink, water-crossed ones.</text>
                 <part Name="UrsaStartPostQuest" />
             </choice>
+        </node>
+        <node ID="PostContent" Inherits="Beginning">
+            <text>
+                It's been quyte pleasssant. I've been learning mammalian cuisine from Rofwufufuf. Please, help yourssself to er oven.
+
+                Oh, and he made something for ye. He's deft with those cute little pawsss of his. Ye aught speak to him. He isn't the mossst polite, but I hope you know we are both very grateful.
+            </text>
         </node>
         <node ID="Thanks" Inherits="Beginning">
             <text>Of courssse, pilgrym.</text>
@@ -143,10 +143,11 @@
         <start ID="PostSparks" Inherits="Beginning" IfFinishedQuest="Sparks on the Kindling">
             <text>
                 ah, ehehe. hi =name=.~
-                azhdak is, very strong, very warm.~
+                azhdak is very strong. very warm.~
                 ehehe, like see you! {{emote|*He tries to lick your face. You let him.*}}
             </text>
             <choice Target="AfterSparks" IfHaveState="Ursa_PostQuestTimerFinished" IfNotHaveState="Ursa_DragonWeaponGot">How are you, Rofwufufuf?</choice>
+            <choice Target="Cooking">What have you been cooking? It smells good.</choice>
         </start>
         <start ID="Start" Inherits="Beginning" CompleteQuestStep="Crossed Threads~Find Rofwufufuf">
             <text>
@@ -154,6 +155,7 @@
                 go. {{emote|*scritch, scritch*}} ruf want no fite.~
                 {{emote|*scritch scritch. It's ignoring you.*}} 
             </text>
+            <choice Target="Camping">What are you doing out here?</choice>
             <choice Target="Weapon">That's an interesting looking weapon.</choice>
             <choice IfHaveQuest="Crossed Threads" Target="Dragon">Why were you after Azhdahak?</choice>
         </start>
@@ -161,7 +163,13 @@
             <text>tanks, ehehe. rof got it from big d... daggon. make it big stabby-stabby.</text>
         </node>
         <node ID="Dragon" Inherits="Beginning">
-            <text>wufufuf not have lot a pack friends. woofuf want be legend, make new pack.</text>
+            <text>wufufuf not have lot a pack friends. woofuf want be legend, have own pack.</text>
+        </node>
+        <node ID="Camping" Inherits="Beginning">
+            <text>lib n' hunt n' dink n' eat. tear up pigs, put 'em on fire. ehehehe. want some?</text>
+        </node>
+        <node ID="Cooking" Inherits="Beginning">
+            <text>big prey, big fire. roffy rippit up with teeth. azhak melt rocks and make it smokey. ehehehe. rockey fleshey taste, good meats.</text>
         </node>
         <node ID="Howl" Inherits="Beginning">
             <text>{{emote|*Rofwufufuf tilts =pronouns.possessive= head back with you and screams a howl at the heavens.*}}</text>
