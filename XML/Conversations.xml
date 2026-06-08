@@ -137,7 +137,6 @@
 
     <conversation ID="UrsaRofwufufuf">
         <node ID="Beginning">
-            <choice Target="Howl">{{emote|*howl*}}</choice>
             <choice Target="End">Live and drink, fiery one.</choice>
         </node>
         <start ID="PostSparks" Inherits="Beginning" IfFinishedQuest="Sparks on the Kindling">
@@ -147,9 +146,10 @@
                 ehehe, like see you! {{emote|*He tries to lick your face. You let him.*}}
             </text>
             <choice Target="AfterSparks" IfHaveState="Ursa_PostQuestTimerFinished" IfNotHaveState="Ursa_DragonWeaponGot">How are you, Rofwufufuf?</choice>
-            <choice Target="Cooking">What have you been cooking? It smells good.</choice>
+            <choice Target="Cooking" ShareRecipe="Ursa_AzhRofMeal">What have you been cooking? It smells good.</choice>
+            <choice Target="HowlPostSparks">{{emote|*howl*}}</choice>
         </start>
-        <start ID="Start" Inherits="Beginning" CompleteQuestStep="Crossed Threads~Find Rofwufufuf">
+        <start ID="PreSparks" Inherits="Beginning" CompleteQuestStep="Crossed Threads~Find Rofwufufuf">
             <text>
                 wat you want? rofuf want no fite right now.~
                 go. {{emote|*scritch, scritch*}} ruf want no fite.~
@@ -158,20 +158,24 @@
             <choice Target="Camping">What are you doing out here?</choice>
             <choice Target="Weapon">That's an interesting looking weapon.</choice>
             <choice IfHaveQuest="Crossed Threads" Target="Dragon">Why were you after Azhdahak?</choice>
+            <choice Target="HowlPreSparks">{{emote|*howl*}}</choice>
         </start>
-        <node ID="Weapon" Inherits="Beginning">
+        <node ID="Weapon" Inherits="PreSparks">
             <text>tanks, ehehe. rof got it from big d... daggon. make it big stabby-stabby.</text>
         </node>
-        <node ID="Dragon" Inherits="Beginning">
+        <node ID="Dragon" Inherits="PreSparks">
             <text>wufufuf not have lot a pack friends. woofuf want be legend, have own pack.</text>
         </node>
-        <node ID="Camping" Inherits="Beginning">
+        <node ID="Camping" Inherits="PreSparks">
             <text>lib n' hunt n' dink n' eat. tear up pigs, put 'em on fire. ehehehe. want some?</text>
         </node>
-        <node ID="Cooking" Inherits="Beginning">
+        <node ID="Cooking" Inherits="PostSparks">
             <text>big prey, big fire. roffy rippit up with teeth. azhak melt rocks and make it smokey. ehehehe. rockey fleshey taste, good meats.</text>
         </node>
-        <node ID="Howl" Inherits="Beginning">
+        <node ID="HowlPostSparks" Inherits="PostSparks">
+            <text>{{emote|*Rofwufufuf tilts =pronouns.possessive= head back with you and screams a howl at the heavens.*}}</text>
+        </node>
+        <node ID="HowlPreSparks" Inherits="PreSparks">
             <text>{{emote|*Rofwufufuf tilts =pronouns.possessive= head back with you and screams a howl at the heavens.*}}</text>
         </node>
         <node ID="AfterSparks">
@@ -187,7 +191,7 @@
                 <part Name="ReceiveItem" Table="Ursa_DragonWeapons" Identify="All" />
             </choice>
         </node>
-        <node ID="GetWeapon" Inherits="Beginning">
+        <node ID="GetWeapon" Inherits="PostSparks">
             <text>use it lots, oki? ehehe.</text>
         </node>
     </conversation>
