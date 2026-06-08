@@ -53,6 +53,7 @@ namespace Ursa.Dragon
             The.ZoneManager.AddZoneBuilder(zoneid, 4900, "ClearAll");
             The.ZoneManager.AddZonePostBuilder(zoneid, "MapBuilder", "FileName", "Ursa_Dragon_Lair");
             The.ZoneManager.SetZoneName(zoneid, "Azhdahak's den", null, null, null, null, Proper: true);
+            The.ZoneManager.SetZoneProperty(zoneid, "SkipTerrainBuilders", true);
 
             string lair_secret = builder.AddSecret(
                 zoneid,
