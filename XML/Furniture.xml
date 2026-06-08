@@ -8,7 +8,7 @@
     </object>
     <object Name="Ursa_AzhdahakDenPainting" Inherits="Furniture">
         <part Name="Render" DisplayName="family portrait" ColorString="&amp;w" DetailColor="r" Tile="Furniture/Ursa_AzhdahakPainting.png" Occluding="false" />
-        <part Name="Description" Short="Blood-crusted wax and flame-licked goatskin portray their three subjects: a snarling beast, a monstrous serpent, and the iron bond you and fate have forged." />
+        <part Name="Description" Short="Blood-crusted wax and flame-licked goatskin portray three subjects: a snarling beast, a monstrous serpent, and the iron bond you and fate have forged." />
         <tag Name="ExcludeFromDynamicEncounters" />
     </object>
 </objects>
