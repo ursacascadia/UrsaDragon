@@ -20,7 +20,7 @@ namespace XRL.World.Skills.Cooking
 
 		public override string GetApplyMessage() => string.Empty;
 
-		public override string GetDisplayName() => "Azh's recipe";
+		public override string GetDisplayName() => "Lava-smoked game";
 	}
 }
 
