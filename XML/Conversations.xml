@@ -146,7 +146,7 @@
                 ehehe, like see you! {{emote|*He tries to lick your face. You let him.*}}
             </text>
             <choice Target="AfterSparks" IfHaveState="Ursa_PostQuestTimerFinished" IfNotHaveState="Ursa_DragonWeaponGot">How are you, Rofwufufuf?</choice>
-            <choice Target="Cooking">What have you been cooking? It smells good.</choice>
+            <choice Target="Cooking" IfHaveState="Ursa_PostQuestTimerFinished">What have you been cooking? It smells good.</choice>
             <choice Target="HowlPostSparks">{{emote|*howl*}}</choice>
         </start>
         <start ID="PreSparks" Inherits="Beginning" CompleteQuestStep="Crossed Threads~Find Rofwufufuf">
