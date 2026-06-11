@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using XRL.Core;
 using XRL.World.Effects;
 using XRL.Rules;
+using XRL.Wish;
 
 namespace XRL.World.Skills.Cooking
 {
+    [HasWishCommand]
 	[Serializable]
 	public class Ursa_AzhRofMeal : CookingRecipe
 	{
@@ -20,7 +22,15 @@ namespace XRL.World.Skills.Cooking
 
 		public override string GetApplyMessage() => string.Empty;
 
-		public override string GetDisplayName() => "Lava-smoked game";
+		public override string GetDisplayName() => "Lava-smoked Game";
+
+        [WishCommand(Command = "azhrofrecipe")]
+        public static void RevealRecipe() 
+        {
+            // if (!CookingGameState.KnowsRecipe("Ursa_AzhRofMeal")) {
+                CookingGameState.LearnRecipe(new Ursa_AzhRofMeal());
+            // }
+        }
 	}
 }
 

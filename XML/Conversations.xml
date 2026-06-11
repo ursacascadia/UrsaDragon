@@ -171,6 +171,13 @@
         </node>
         <node ID="Cooking" Inherits="PostSparks">
             <text>big prey, big fire. roffy rippit up with teeth. azhak melt rocks and make it smokey. ehehehe. rockey fleshey taste, good meats.</text>
+            <choice Target="TeachCook" CallScript="XRL.World.Skills.Cooking.Ursa_AzhRofMeal.RevealRecipe">Can you teach me to make it?</choice>
+        </node>
+        <node ID="TeachCook" Inherits="PostSparks">
+            <text>ehehehe, is easy. just do this.
+
+                {{emote|*He attempts to demonstrate making the recipe by pantomiming with teeth and paws. You probably understand well enough to make it.*}}
+            </text>
         </node>
         <node ID="HowlPostSparks" Inherits="PostSparks">
             <text>{{emote|*Rofwufufuf tilts =pronouns.possessive= head back with you and screams a howl at the heavens.*}}</text>
