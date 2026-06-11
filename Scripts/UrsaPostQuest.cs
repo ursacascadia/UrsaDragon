@@ -22,9 +22,9 @@ public class UrsaPostQuest : IPart
         if (The.Game.GetBooleanGameState("Ursa_PostQuestTimerFinished")) {
             ParentObject.CurrentZone.GetCell(36, 9).AddObject("Ursa_AzhdahakDenPainting");
             ParentObject.CurrentZone.GetCell(38, 8).AddObject("Ursa_AzhdahakDenOven");
-            ParentObject.CurrentZone.GetCell(41, 8).GetFirstObject("Bedroll").Obliterate();
+            ParentObject.CurrentZone.GetCell(41, 8).GetFirstObject("Bedroll")?.Obliterate();
             ParentObject.CurrentZone.GetCell(41, 8).AddObject("Bed");
-            ParentObject.RemovePart(this);
+            ParentObject.RemovePart<UrsaPostQuest>();
         }
         return base.HandleEvent(E);
     }
