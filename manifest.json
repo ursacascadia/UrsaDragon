@@ -1,13 +1,13 @@
 {
     "ID": "Ursa_CrossedThreads",
     "Title": "Crossed Threads",
-    "Description": "",
-    "Version": "0.1.0",
+    "Description": "Help Crowsong ascertain the fate of a certain fiery thread.",
+    "Version": "1.0.0",
     "Dependencies": {
         "Ursa_CompanionHelpers": "*",
         "Sibs_Library": "*"
     },
     "Author": "{{amorous|UrsaCascadia}} and {{olive|billy checkers}}",
-    "Tags": "Quest",
+    "Tags": "Quest, Item, Weapon, NPC, Conversation",
     "PreviewImage": "preview.png"
 }
