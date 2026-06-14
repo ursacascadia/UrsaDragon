@@ -27,9 +27,9 @@ namespace XRL.World.Skills.Cooking
         [WishCommand(Command = "azhrofrecipe")]
         public static void RevealRecipe() 
         {
-            // if (!CookingGameState.KnowsRecipe("Ursa_AzhRofMeal")) {
+            if (!CookingGameState.KnowsRecipe("Ursa_AzhRofMeal")) {
                 CookingGameState.LearnRecipe(new Ursa_AzhRofMeal());
-            // }
+            }
         }
 	}
 }
